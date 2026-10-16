@@ -1,0 +1,161 @@
+20:03:51.752 INFO  [kubejs] SCCEvents registered for KubeJS
+20:03:55.592 INFO  [start] ================================================
+20:03:55.593 INFO  [start] SCC 1.4.4  -  2026-10-16
+20:03:55.593 INFO  [start] Mods loaded: 79
+20:03:55.593 INFO  [start] JEI: true, EMI: false
+20:04:13.951 INFO  [chemicals] Mekanism chemicals connected - gases count as a network resource
+20:04:13.951 INFO  [chemicals] chemical storage blocks registered with Mekanism's handler
+20:04:13.960 INFO  [ae2] Network Antenna registers as an AE2 node
+20:04:32.613 INFO  [theme] Blockdesigns im Atlas: [light, classic, porcelain, ivory, champagne, pearl, ice, mint, rose, sandstone, royal_blue, burgundy, emerald, copper, terracotta, lapis, amethyst, petrol, jade, black_white, graphite, titanium, sky, peach, lavender, signal_red, dark] (F7 dark, preload true) - 25914 Sprites, 30627520 Pixel (116.8 MB), Umfaerben 827 ms, 2213 Dateien dekodiert, Atlas 4096x4096 (85 MB Grafikspeicher mit Mipmaps), Flaeche Designs 7055616 / Rest 8345920 px
+20:04:49.854 INFO  [balance] loaded 23 balance file(s) on the server
+20:04:56.007 INFO  [world] leaving - writing log
+20:05:22.130 INFO  [sky] drawing the five sky objects (visibility 0.4792654)
+20:05:45.652 INFO  [analysis] start, source JEI, fingerprint 5a0cef1834fa280e|57b9e8e70000de3d-10415~367295ced4ebcc78
+20:05:50.344 WARN  [key] one variant was 3134 characters long and was shortened to a fingerprint. such items stay distinguishable but show no preview of their contents in the terminal.
+20:05:56.247 INFO  [hitch] frame took 347 ms - SCC 0.3 ms (tick 0.2, sky 0.1, window 0.0, planner 0.0), GC 0 ms, heap 2597/12224 MB -> another mod or the game itself (SCC and GC were small)
+20:06:04.667 INFO  [hitch] frame took 106 ms - SCC 41.6 ms (tick 41.5, sky 0.1, window 0.0, planner 0.0), GC 0 ms, heap 1753/12224 MB -> another mod or the game itself (SCC and GC were small)  (+2 more since the last line, worst 114 ms)
+20:06:10.550 INFO  [hitch] frame took 146 ms - SCC 61.8 ms (tick 61.7, sky 0.1, window 0.0, planner 0.0), GC 0 ms, heap 2294/12224 MB -> another mod or the game itself (SCC and GC were small)  (+6 more since the last line, worst 191 ms)
+20:06:10.777 WARN  [key] one variant was 707 characters long and was shortened to a fingerprint. such items stay distinguishable but show no preview of their contents in the terminal.
+20:06:10.777 WARN  [key] one variant was 735 characters long and was shortened to a fingerprint. such items stay distinguishable but show no preview of their contents in the terminal.
+20:06:10.778 WARN  [key] one variant was 735 characters long and was shortened to a fingerprint. such items stay distinguishable but show no preview of their contents in the terminal.
+20:06:10.778 WARN  [key] one variant was 722 characters long and was shortened to a fingerprint. such items stay distinguishable but show no preview of their contents in the terminal.
+20:06:16.248 INFO  [recipes] fan recipe create:splashing/mekanism/crushed_raw_lead left out - Create runs create:splashing/immersiveengineering/crushed_raw_lead for the same input
+20:06:16.249 INFO  [recipes] fan recipe create:splashing/immersiveengineering/crushed_raw_uranium left out - Create runs create:splashing/mekanism/crushed_raw_uranium for the same input
+20:06:16.782 INFO  [hitch] frame took 388 ms - SCC 360.3 ms (tick 360.2, sky 0.1, window 0.0, planner 0.0), GC 38 ms, heap 2294/12224 MB -> SCC  (+4 more since the last line, worst 291 ms)
+20:06:26.322 INFO  [catalyst] from tags: 2 categories extended, 0 restricted
+20:06:26.357 INFO  [recipes] 253 recipe(s) take their chemical from the network - their machine has no slot that converts items into it
+20:06:26.357       [recipes]   mekanism:processing/uranium/sulfuric_acid: mekanism:hydrofluoric_acid 1 mB from the network (not mekanism:fluorite_gem)
+20:06:26.357       [recipes]   mekanism:processing/uranium/sulfuric_acid: mekanism:uranium_oxide 1 mB from the network (not mekanism:yellow_cake_uranium)
+20:06:26.357       [recipes]   mekanism:chemical_infusing/hydrogen_chloride: mekanism:hydrogen 1 mB from the network (not minecraft:stick)
+20:06:26.357       [recipes]   mekanism:chemical_infusing/sulfur_trioxide: mekanism:oxygen 1 mB from the network (not minecraft:flint)
+20:06:26.357       [recipes]   mekanism:chemical_infusing/sulfur_trioxide: mekanism:sulfur_dioxide 2 mB from the network (not mekanism:dust_sulfur)
+20:06:26.357       [recipes]   mekanism:processing/lategame/antimatter_pellet/from_gas: mekanism:antimatter 1000 mB from the network (not mekanism:pellet_antimatter)
+20:06:26.357       [recipes]   mekanism:crystallizing/lithium: mekanism:lithium 100 mB from the network (not mekanism:dust_lithium)
+20:06:26.357       [recipes]   mekanism:crystallizing/salt: mekanism:brine 15 mB from the network (not mekanism:salt)
+20:06:26.357 INFO  [scan] 32 categories without a single recipe taken over:
+20:06:26.357       [scan]   minecraft:compostable (247)
+20:06:26.357       [scan]   minecraft:fuel (504)
+20:06:26.357       [scan]   minecraft:grindstone (12051)
+20:06:26.357       [scan]   apothic_spawners:spawner_modifiers (26)
+20:06:26.357       [scan]   createaddition:liquid_burning (6)
+20:06:26.357       [scan]   immersiveengineering:blast_furnace_fuel (4)
+20:06:26.357       [scan]   immersiveengineering:fertilizer (5)
+20:06:26.357       [scan]   industrialforegoing:mycelial_crimed (10)
+20:06:26.357       [scan]   industrialforegoing:mycelial_culinary (219)
+20:06:26.357       [scan]   industrialforegoing:mycelial_death (4)
+20:06:26.357       [scan]   industrialforegoing:mycelial_disenchantment (208)
+20:06:26.357       [scan]   industrialforegoing:mycelial_ender (2)
+20:06:26.357       [scan]   industrialforegoing:mycelial_explosive (2)
+20:06:26.357       [scan]   industrialforegoing:mycelial_frosty (6)
+20:06:26.357       [scan]   industrialforegoing:mycelial_furnace (474)
+20:06:26.357       [scan]   industrialforegoing:mycelial_halitosis (1)
+20:06:26.357       [scan]   industrialforegoing:mycelial_magma (2)
+20:06:26.357       [scan]   industrialforegoing:mycelial_meatallurgic (1)
+20:06:26.357       [scan]   industrialforegoing:mycelial_netherstar (1)
+20:06:26.357       [scan]   industrialforegoing:mycelial_pink (50)
+20:06:26.357       [scan]   industrialforegoing:mycelial_potion (303)
+20:06:26.357       [scan]   industrialforegoing:mycelial_rocket (3)
+20:06:26.357       [scan]   industrialforegoing:mycelial_slimey (1)
+20:06:26.357       [scan]   industrialforegoing:stone_work_generator (6)
+20:06:26.357       [scan]   mekanism:chemical_conversion (24)
+20:06:26.357       [scan]   mekanism:energy_conversion (2)
+20:06:26.357       [scan]   minecolonies:tools (16)
+20:06:26.357       [scan]   powah:coolant (1)
+20:06:26.357       [scan]   powah:heat_source (3)
+20:06:26.357       [scan]   powah:magmatic (1)
+20:06:26.357       [scan]   powah:reactor_fuel (1)
+20:06:26.357       [scan]   powah:solid_coolant (6)
+20:06:26.357 INFO  [recipes] 25 recipes deliver their result only by chance (planned by expected value)
+20:06:26.357       [recipes]   create:crushing/crimsite: 1x create:crushed_raw_iron at 40%
+20:06:26.357       [recipes]   create:crushing/asurine: 1x create:crushed_raw_zinc at 30%
+20:06:26.357       [recipes]   create:crushing/ochrum_recycling: 1x create:crushed_raw_gold at 20%
+20:06:26.357       [recipes]   create:crushing/nether_wart_block: 1x minecraft:nether_wart at 25%
+20:06:26.357       [recipes]   create:crushing/asurine_recycling: 1x create:crushed_raw_zinc at 30%
+20:06:26.357       [recipes]   create:crushing/tuff_recycling: 1x minecraft:flint at 25%
+20:06:26.357       [recipes]   create:crushing/veridium: 1x create:crushed_raw_copper at 80%
+20:06:26.357       [recipes]   create:crushing/tuff: 1x minecraft:flint at 25%
+20:06:26.357       [recipes]   create:crushing/diorite: 1x minecraft:quartz at 25%
+20:06:26.357       [recipes]   create:crushing/veridium_recycling: 1x create:crushed_raw_copper at 80%
+20:06:26.357       [recipes]   create:crushing/ochrum: 1x create:crushed_raw_gold at 20%
+20:06:26.357       [recipes]   create:crushing/diorite_recycling: 1x minecraft:quartz at 25%
+20:06:26.357 INFO  [recipes] chemicals: 81 conversions, 61 enriched duplicates
+20:06:26.360 INFO  [recipes] conversion rates
+20:06:26.361       [recipes]   create:chocolate: create:bar_of_chocolate = 250 mB   (1 sources)   no richer form
+20:06:26.361       [recipes]   create:honey: minecraft:honey_block = 1000 mB   (1 sources)   no richer form
+20:06:26.361       [recipes]   create:potion: minecraft:glowstone_dust = 1000 mB   (42 sources)   no richer form
+20:06:26.361       [recipes]   create:tea: minecraft:oak_leaves = 500 mB   (16 sources)   best form only factor 1.0 - discarded
+20:06:26.361       [recipes]   createaddition:seed_oil: minecraft:melon_seeds = 100 mB   (12 sources)   no richer form
+20:06:26.361       [recipes]   immersiveengineering:ethanol: minecraft:melon_slice = 20 mB   (8 sources)   no richer form
+20:06:26.361       [recipes]   immersiveengineering:plantoil: minecraft:melon_seeds = 20 mB   (7 sources)   no richer form
+20:06:26.361       [recipes]   immersiveengineering:potion: minecraft:glowstone_dust = 1000 mB   (42 sources)   no richer form
+20:06:26.361       [recipes]   immersiveengineering:redstone_acid: minecraft:redstone = 250 mB   (1 sources)   no richer form
+20:06:26.361       [recipes]   industrialforegoing:biofuel: minecraft:sweet_berries = 80 mB   (73 sources)   no richer form
+20:06:26.361       [recipes]   industrialforegoing:essence: industrialforegoing:mob_crusher = 1000 mB   (1 sources)   no richer form
+20:06:26.361       [recipes]   industrialforegoing:ether_gas: industrialforegoing:purple_laser_lens = 10 mB   (1 sources)   no richer form
+20:06:26.361       [recipes]   industrialforegoing:latex: minecraft:oak_log = 1 mB   (62 sources)   best form only factor 1.0 - discarded
+20:06:26.361       [recipes]   industrialforegoing:meat: industrialforegoing:mob_slaughter_factory = 1000 mB   (1 sources)   no richer form
+20:06:26.361       [recipes]   industrialforegoing:pink_slime: industrialforegoing:mob_slaughter_factory = 1000 mB   (1 sources)   no richer form
+20:06:26.361       [recipes]   industrialforegoing:raw_ore_meat: minecraft:raw_iron = 100 mB   (14 sources)   no richer form
+20:06:26.361       [recipes]   industrialforegoing:sewage: industrialforegoing:sewer = 1000 mB   (1 sources)   no richer form
+20:06:26.361       [recipes]   industrialforegoing:sludge: industrialforegoing:plant_gatherer = 1000 mB   (1 sources)   no richer form
+20:06:26.361       [recipes]   irons_spellbooks:common_ink: irons_spellbooks:scroll = 250 mB   (1 sources)   no richer form
+20:06:26.361       [recipes]   irons_spellbooks:epic_ink: minecraft:gold_ingot = 250 mB   (2 sources)   no richer form
+20:06:26.361       [recipes]   irons_spellbooks:evasion_elixir: minecraft:ender_pearl = 250 mB   (1 sources)   no richer form
+20:06:26.361       [recipes]   irons_spellbooks:greater_evasion_elixir: minecraft:dragon_breath = 250 mB   (1 sources)   no richer form
+20:06:26.361       [recipes]   irons_spellbooks:greater_healing_elixir: minecraft:amethyst_shard = 250 mB   (1 sources)   no richer form
+20:06:26.361       [recipes]   irons_spellbooks:greater_invisibility_elixir: minecraft:amethyst_cluster = 250 mB   (1 sources)   no richer form
+20:06:26.361       [recipes]   irons_spellbooks:greater_oakskin_elixir: minecraft:amethyst_shard = 250 mB   (1 sources)   no richer form
+20:06:26.361       [recipes]   irons_spellbooks:ice_venom: irons_spellbooks:icy_fang = 250 mB   (1 sources)   no richer form
+20:06:26.361       [recipes]   irons_spellbooks:invisibility_elixir: irons_spellbooks:shriving_stone = 250 mB   (1 sources)   no richer form
+20:06:26.361       [recipes]   irons_spellbooks:legendary_ink: minecraft:amethyst_shard = 250 mB   (2 sources)   no richer form
+20:06:26.361       [recipes]   irons_spellbooks:oakskin_elixir: minecraft:oak_log = 250 mB   (1 sources)   no richer form
+20:06:26.361       [recipes]   irons_spellbooks:potion: minecraft:gunpowder = 250 mB   (42 sources)   no richer form
+20:06:26.361       [recipes]   irons_spellbooks:rare_ink: minecraft:iron_ingot = 250 mB   (2 sources)   no richer form
+20:06:26.361       [recipes]   irons_spellbooks:timeless_slurry: minecraft:echo_shard = 250 mB   (1 sources)   no richer form
+20:06:26.361       [recipes]   irons_spellbooks:uncommon_ink: minecraft:copper_ingot = 250 mB   (2 sources)   no richer form
+20:06:26.361       [recipes]   mekanism:antimatter: mekanism:pellet_antimatter = 1000 mB   (1 sources)   no richer form
+20:06:26.361       [recipes]   mekanism:bio: mekanism:bio_fuel = 5 mB   (3 sources)   best form only factor 1.0 - discarded
+20:06:26.361       [recipes]   mekanism:black: minecraft:black_stained_glass_pane = 6 mB   (12 sources)   no richer form
+20:06:26.361       [recipes]   mekanism:blue: minecraft:blue_stained_glass_pane = 6 mB   (12 sources)   no richer form
+20:06:26.361       [recipes]   mekanism:brine: mekanism:salt = 15 mB   (1 sources)   no richer form
+20:06:26.361       [recipes]   mekanism:brown: minecraft:brown_stained_glass_pane = 6 mB   (11 sources)   no richer form
+20:06:26.361       [recipes]   mekanism:carbon: minecraft:coal = 10 mB   (7 sources)   richest: mekanism:enriched_carbon = 80 mB, factor 8.0
+20:06:26.361 INFO  [recipes] duplicates (sample)
+20:06:26.361       [recipes]   mekanism:processing/refined_glowstone/ingot/from_dust#via/mekanism:block_osmium: 9 runs with mekanism:block_osmium x1 instead of mekanism:ingot_osmium x9  ->  9x output
+20:06:26.361       [recipes]   mekanism:processing/refined_obsidian/ingot/from_dust#via/mekanism:block_osmium: 9 runs with mekanism:block_osmium x1 instead of mekanism:ingot_osmium x9  ->  9x output
+20:06:26.361       [recipes]   mekanism:metallurgic_infusing/blackstone_to_gilded_blackstone#rich: 4 runs with mekanism:enriched_gold x5 instead of mekanism:dust_gold x4  ->  4x output
+20:06:26.361       [recipes]   mekanism:processing/bronze/ingot/from_infusing#rich: 8 runs with mekanism:enriched_tin x1 instead of mekanism:dust_tin x8  ->  32x output
+20:06:26.361       [recipes]   mekanism:metallurgic_infusing/sand_to_dirt#via/mekanism:block_bio_fuel: 9 runs with mekanism:block_bio_fuel x2 instead of mekanism:bio_fuel x9  ->  9x output
+20:06:26.361       [recipes]   mekanism:metallurgic_infusing/mossy/stone_brick_slab#via/mekanism:block_bio_fuel: 9 runs with mekanism:block_bio_fuel x2 instead of mekanism:bio_fuel x9  ->  9x output
+20:06:26.361       [recipes]   mekanism:control_circuit/infused_elite#via/mekanism:enriched_diamond: 2 runs with mekanism:enriched_diamond x3 instead of mekanism:dust_diamond x2  ->  2x output
+20:06:26.361       [recipes]   mekanism:control_circuit/infused_advanced#rich: 4 runs with mekanism:enriched_redstone x3 instead of minecraft:redstone x4  ->  4x output
+20:06:26.361       [recipes]   mekanism:control_circuit/infused_advanced#via/minecraft:redstone_block: 3 runs with minecraft:redstone_block x2 instead of minecraft:redstone x3  ->  3x output
+20:06:26.361       [recipes]   mekanism:processing/iron/enriched_dust#via/minecraft:charcoal: 2 runs with minecraft:charcoal x1 instead of minecraft:coal x2  ->  2x output
+20:06:26.361       [recipes]   mekanism:processing/iron/enriched_dust#via/mekanism:dust_charcoal: 2 runs with mekanism:dust_charcoal x1 instead of minecraft:coal x2  ->  2x output
+20:06:26.361       [recipes]   mekanism:processing/iron/enriched_dust#via/mekanism:block_charcoal: 18 runs with mekanism:block_charcoal x1 instead of minecraft:coal x18  ->  18x output
+20:06:26.369 WARN  [analysis] 47 fill steps for containers added (bucket from tank)
+20:06:26.388 WARN  [analysis] 6 composting recipes added (compostable -> bone meal)
+20:06:26.388 INFO  [recipes] 2 fan recipes left out - Create runs another recipe for the same input
+20:06:26.400 INFO  [hitch] frame took 159 ms - SCC 124.5 ms (tick 123.9, sky 0.6, window 0.0, planner 0.0), GC 0 ms, heap 2604/12224 MB -> SCC  (+7 more since the last line, worst 375 ms)
+20:06:32.351 INFO  [hitch] frame took 154 ms - SCC 0.5 ms (tick 0.0, sky 0.5, window 0.0, planner 0.0), GC 0 ms, heap 1849/12224 MB -> another mod or the game itself (SCC and GC were small)
+20:06:33.032 INFO  [analysis] done: 26630 recipes, 16592 items, 13812 mappings, 581 cycles, 84 unpack-only, 47349 ms
+20:06:33.032 INFO  [analysis] phases: scan 1: 40747 ms, link 1: 715 ms, seed 1: 220 ms, solve 1: 2261 ms, cycles 1: 163 ms, link 2: 433 ms, seed 2: 33 ms, solve 2: 1522 ms, cycles 2: 394 ms, select 2: 271 ms, loops 2: 584 ms
+20:06:33.037 INFO  [analysis] 311 recipes without any ingredient discarded, sample:
+20:06:33.037       [analysis]   minecraft:anvil#5339
+20:06:33.037       [analysis]   minecraft:anvil#5333
+20:06:33.037       [analysis]   minecraft:anvil#5433
+20:06:33.037       [analysis]   minecraft:anvil#5351
+20:06:33.037       [analysis]   minecraft:anvil#5343
+20:06:33.037       [analysis]   minecraft:anvil#5389
+20:06:33.037       [analysis]   minecraft:anvil#5367
+20:06:33.037       [analysis]   minecraft:anvil#5391
+20:06:33.037       [analysis]   minecraft:anvil#5379
+20:06:33.037       [analysis]   minecraft:anvil#5427
+20:06:33.037       [analysis]   minecraft:anvil#5395
+20:06:33.037       [analysis]   minecraft:anvil#5431
+20:06:36.026 WARN  [tick] SCC spent 7737 ms computing in the last minute (analysis 7654 ms, search index 82 ms, craftability 0 ms), longest single query 0 ms.
+20:07:29.318 INFO  [hitch] frame took 236 ms - SCC 0.1 ms (tick 0.1, sky 0.1, window 0.0, planner 0.0), GC 0 ms, heap 2037/12224 MB -> another mod or the game itself (SCC and GC were small)
+20:07:36.065 INFO  [key] 34 items have 64 or more variants each. Components involved: minecraft:enchantments (19), scc:stellar_tier (7), scc:stellar_energy (7), minecraft:attribute_modifiers (6), minecraft:potion_contents (5), industrialforegoing:infinity_item_selected_tier (4), 16 more. Enchanted tools, potions and wood or bee types are genuine variants; only a component that changes all the time (charge, timestamp) belongs in the config under ignoredComponents. Per-item details with logging detail 2.
+20:07:42.263 INFO  [hitch] frame took 225 ms - SCC 0.2 ms (tick 0.1, sky 0.1, window 0.0, planner 0.0), GC 0 ms, heap 1942/12224 MB -> another mod or the game itself (SCC and GC were small)
+20:09:51.659 INFO  [world] leaving - writing log
+20:09:56.804 INFO  [world] leaving - writing log

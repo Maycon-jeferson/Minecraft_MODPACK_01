@@ -1,0 +1,19 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"createappliedkinetics:energy_provider"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"createappliedkinetics:me_proxy"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"createappliedkinetics:incomplete_logic_processor"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"createappliedkinetics:incomplete_engineering_processor"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"createappliedkinetics:incomplete_calculation_processor"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"appliedcreate:stress_circuit_board"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"appliedcreate:stress_storage_component_64k"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"appliedcreate:andesite_pattern_provider"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"appliedcreate:brass_pattern_provider"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"appliedcreate:advanced_stress_circuit_board"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"appliedcreate:stress_processor"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"appliedcreate:advanced_stress_processor"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ae2:inscriber"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ae2:logic_processor"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ae2:engineering_processor"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ae2:calculation_processor"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

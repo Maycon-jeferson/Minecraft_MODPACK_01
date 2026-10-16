@@ -1,0 +1,10 @@
+[20:03:54] [INIT] KubeJS 2101.7.2-build.377; MC 2101 NeoForge
+[20:03:54] [INIT] Loaded plugins:
+[20:03:54] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSPlugin
+[20:03:54] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSClientPlugin
+[20:03:54] [INIT] - de.scc.calculator.compat.kubejs.SccKubeJSPlugin
+[20:03:54] [INIT] - com.klikli_dev.occultism_kubejs.KubeJSOccultismPlugin
+[20:03:54] [INFO] client_scripts:main.js#2: Hello, World! (Loaded client example script)
+[20:03:54] [INFO] Loaded script client_scripts:main.js in 0.001 s
+[20:03:54] [INFO] Loaded 1/1 KubeJS client scripts in 0.088 s with 0 errors and 0 warnings
+[20:04:06] [INFO] Client resource reload complete!
