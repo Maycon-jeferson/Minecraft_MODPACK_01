@@ -1,0 +1,51 @@
+{
+	chapter_group.5925D1FDFB4429B8.title: "Tutoriais de Tecnologia"
+	chapter.79944A709D8904E0.title: "Create — Automação cinética"
+	chapter.3C171C1A16886005.title: "Mekanism — Processamento e energia"
+	chapter.0C2677B01F6016BC.title: "Immersive Engineering — Energia e indústria"
+	chapter.6CE8F4ED39069210.title: "Applied Energistics 2 — Armazenamento e autocrafting"
+	quest.01562B9CB8635871.quest_desc: ["Posicione a roda d’água em um fluxo de água e conecte seu eixo à rede. A direção e a velocidade do fluxo afetam a rotação. Use uma caixa de engrenagens para encaminhar o movimento às máquinas."]
+	quest.01562B9CB8635871.title: "Gere energia com água"
+	quest.09DE2FB08448C553.quest_desc: ["A Metal Press exige uma estrutura com prensa, molde e transportador. Use o Engineer’s Manual para orientar a montagem. Coloque o molde compatível, alimente o material pela correia e conecte energia; a posição e orientação da saída importam."]
+	quest.09DE2FB08448C553.title: "Prensa de metal"
+	quest.0C59812C4A6C1558.quest_desc: ["O Crusher reduz itens compatíveis a pó. Combine-o com uma Enrichment Chamber e um Energized Smelter para automatizar a rota pó → lingote. Use o Configurator para ajustar os lados e mantenha as saídas desobstruídas."]
+	quest.0C59812C4A6C1558.title: "Expanda a linha básica"
+	quest.1170A46DA8EE443A.quest_desc: ["A Purification Chamber usa oxigênio como reagente para aumentar o rendimento de minérios. Forneça o gás pela tubulação química e o minério pela entrada de itens; o produto sólido sai pela face configurada. A cadeia de oxigênio requer separação eletrolítica."]
+	quest.1170A46DA8EE443A.title: "Purificação avançada"
+	quest.13B91E3021546DF6.quest_desc: ["A Enrichment Chamber transforma certos minérios e materiais em produtos enriquecidos. Insira o material pela face configurada como entrada, conecte energia e retire pela face de saída. Ela é um passo eficiente para várias linhas de processamento."]
+	quest.13B91E3021546DF6.title: "Enriqueça antes de fundir"
+	quest.19C6CE6BD9039CDC.quest_desc: ["Duas rodas de esmagamento devem ficar opostas, com os eixos voltados para fora e girando em sentidos compatíveis. Alimente os itens pela abertura entre elas. Um funil ou correia pode recolher os produtos e subprodutos."]
+	quest.19C6CE6BD9039CDC.title: "Esmagamento contínuo"
+	quest.2B6370CA82A9E0F8.quest_desc: ["A prensa precisa de rotação e de uma superfície de trabalho, como uma bigorna. Alimente o item pelo topo com funis ou correias e retire o resultado pela lateral ou pela saída inferior. Use-a para prensar placas e componentes."]
+	quest.2B6370CA82A9E0F8.title: "Prensa mecânica"
+	quest.2F27CFC0FB1667A4.quest_desc: ["Para autocrafting, use um Crafting CPU, unidades de crafting, Pattern Provider e Molecular Assemblers. Grave padrões processados no Inscriber quando a receita exigir máquina. Conecte todos os blocos à rede e teste uma ordem pequena antes de automatizar em escala."]
+	quest.2F27CFC0FB1667A4.title: "Autocrafting"
+	quest.30704F8C47D6C88E.quest_desc: ["A Liga de Andesito é a base dos componentes do Create. Consulte o JEI para escolher uma rota de fabricação. Reserve-a para eixos, engrenagens e peças cinéticas."]
+	quest.30704F8C47D6C88E.title: "Liga de Andesito"
+	quest.3F1385DE760FA4FB.quest_desc: ["Fluix é criado pela reação de materiais compatíveis na água. Solte os ingredientes juntos e aguarde a reação; recolha os cristais resultantes. Esta cadeia apresenta os componentes usados em cabos e circuitos ME."]
+	quest.3F1385DE760FA4FB.title: "Produza Fluix"
+	quest.4AD7E6B9C5364C0E.quest_desc: ["O Assembler é um multibloco que combina receitas de crafting automaticamente. Configure os ingredientes nos slots de entrada, conecte-o a energia e alimente-os com esteiras, funis ou tubos. Use filtros para impedir que itens errados ocupem os slots."]
+	quest.4AD7E6B9C5364C0E.title: "Automatize com o Assembler"
+	quest.4CB645C51D6E9A08.quest_desc: ["O Inscriber precisa de uma prensa apropriada e dos materiais nos slots corretos. Insira cada componente na posição indicada pelo JEI e ligue energia. Faça processadores e circuitos antes de tentar construir o Controller."]
+	quest.4CB645C51D6E9A08.title: "Inscriber e circuitos"
+	quest.4F5E5BAB3B2E449D.quest_desc: ["Certus Quartz inicia a progressão do AE2. A poeira e os cristais têm usos diferentes; consulte o JEI antes de processar todos os recursos. Uma Charger converte os materiais que exigem carregamento."]
+	quest.4F5E5BAB3B2E449D.title: "Certus Quartz"
+	quest.532D23301CBF66CC.quest_desc: ["O Digital Miner precisa de energia, filtros de bloco e uma área definida. Configure os filtros por tag para minerar uma família de minérios; use Radius e Minimum/Maximum Y para limitar a busca. Um sistema de logística pode remover os itens continuamente."]
+	quest.532D23301CBF66CC.title: "Digital Miner"
+	quest.57FC9B5B75F47EE8.quest_desc: ["Eixos transferem rotação entre componentes. Monte uma fonte cinética e conecte os eixos; use engrenagens para mudar a direção e a relação de velocidade. Observe o indicador de estresse: uma rede sobrecarregada para."]
+	quest.57FC9B5B75F47EE8.title: "Transmita rotação"
+	quest.59A23DF00483113A.quest_desc: ["O capacitor LV armazena energia e alimenta máquinas próximas por conectores e fios compatíveis. Coloque conectores nos blocos de máquina, estique o fio entre eles com o Engineer’s Wirecutter e confirme que a capacidade do fio não foi excedida."]
+	quest.59A23DF00483113A.title: "Monte a rede LV"
+	quest.63A8B23F54E774B8.quest_desc: ["Coloque uma bacia sob o misturador e forneça rotação suficiente. Insira ingredientes na bacia; receitas que pedem calor exigem uma fonte térmica sob ela. Funis e tubos automatizam a entrada e a coleta."]
+	quest.63A8B23F54E774B8.title: "Misturador mecânico"
+	quest.63E5A0DA4B251576.quest_desc: ["Osmium é a matéria-prima de várias máquinas do Mekanism. O pack usa a variante unificada do AllTheOres. Consulte o JEI para ver como minerar, processar e fundir esse recurso."]
+	quest.63E5A0DA4B251576.title: "Osmium para a indústria"
+	quest.66CF6A5E9104762B.quest_desc: ["A máquina combina um item-base com um material de infusão, como carvão ou redstone. Abasteça os dois tipos de entrada e energia. No GUI, confira o material de infusão armazenado; configure os lados no botão de configuração para separar entrada e saída."]
+	quest.66CF6A5E9104762B.title: "Metalurgic Infuser"
+	quest.7886683A57072253.quest_desc: ["O Crusher é um multibloco: use o Engineer’s Manual para conferir a estrutura e o bloco de formação. Depois de montado, conecte energia no ponto indicado, insira materiais na entrada e recolha os produtos nas saídas. Evite deixar os slots de saída cheios."]
+	quest.7886683A57072253.title: "Construa um Crusher"
+	quest.7DF768B86049BBFD.quest_desc: ["A Arc Furnace processa grandes quantidades e aceita eletrodos consumíveis. Construa o multibloco conforme o manual, conecte energia de alta tensão e forneça os eletrodos exigidos pela receita. Planeje a extração de resultados e escória antes de iniciar lotes longos."]
+	quest.7DF768B86049BBFD.title: "Arc Furnace"
+	quest.7EF121C207A67B8F.quest_desc: ["O Controller fornece canais à rede. Conecte-o a uma fonte de energia AE2 e ligue cabos aos dispositivos. Drives armazenam células: formate-as, instale-as no Drive e confira no terminal quais tipos de item elas aceitam."]
+	quest.7EF121C207A67B8F.title: "Controller e armazenamento"
+}

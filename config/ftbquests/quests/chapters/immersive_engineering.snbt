@@ -1,0 +1,70 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "immersive_engineering"
+	group: "5925D1FDFB4429B8"
+	id: "0C2677B01F6016BC"
+	images: [ ]
+	order_index: 2
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "59A23DF00483113A"
+			tasks: [{
+				consume_items: false
+				id: "5A65542A22F32453"
+				item: { count: 1, id: "immersiveengineering:capacitor_lv" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["59A23DF00483113A"]
+			id: "7886683A57072253"
+			tasks: [{
+				consume_items: false
+				id: "01DC9697CEBC90CF"
+				item: { count: 1, id: "immersiveengineering:crusher" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			id: "09DE2FB08448C553"
+			tasks: [{
+				consume_items: false
+				id: "7E792DC6BD323EB4"
+				item: { count: 1, id: "immersiveengineering:metal_press" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			id: "4AD7E6B9C5364C0E"
+			tasks: [{
+				consume_items: false
+				id: "656E57BC09B54D98"
+				item: { count: 1, id: "immersiveengineering:assembler" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4AD7E6B9C5364C0E"]
+			id: "7DF768B86049BBFD"
+			tasks: [{
+				consume_items: false
+				id: "56EFBC61B7D513DA"
+				item: { count: 1, id: "immersiveengineering:arc_furnace" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.0d
+		}
+	]
+}

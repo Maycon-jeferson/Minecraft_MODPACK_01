@@ -1,5 +1,9 @@
 [
   {"version":1},
+  {"ingredient":{"id":"alltheores:brass_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"alltheores:nickel_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"alltheores:aluminum_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism:ingot_refined_obsidian"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"createappliedkinetics:energy_provider"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"createappliedkinetics:me_proxy"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"createappliedkinetics:incomplete_logic_processor"},"type":"item_stack","bookmarkType":"INGREDIENT"},

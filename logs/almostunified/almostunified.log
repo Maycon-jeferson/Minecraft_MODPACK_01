@@ -1,133 +1,444 @@
-[20:27:31.835] [INFO]: Loading config 'startup.json'.
-[20:27:31.845] [WARN]: Config 'startup.json' not found. Creating default config.
-[20:27:41.364] [INFO]: Loaded plugins: almostunified:common, almostunified:neoforge
-[20:28:20.615] [WARN]: Reload detected. Reconstructing runtime.
-[20:28:20.618] [INFO]: Loading config 'debug.json'.
-[20:28:20.621] [WARN]: Config 'debug.json' not found. Creating default config.
-[20:28:20.638] [INFO]: Loading config 'placeholders.json'.
-[20:28:20.646] [WARN]: Config 'placeholders.json' not found. Creating default config.
-[20:28:20.649] [INFO]: Loading config 'tags.json'.
-[20:28:20.655] [WARN]: Config 'tags.json' not found. Creating default config.
-[20:28:20.672] [WARN]: Config 'materials.json' not found. Creating default config.
-[20:28:20.710] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/raw_nickel' -> [ftbmaterials:nickel_raw_block, alltheores:raw_nickel_block]
-[20:28:20.711] [INFO]: [AutoHiding] Hiding 7/11 items for tag '#c:ores/nickel' -> [ftbmaterials:nickel_stone_ore, ftbmaterials:nickel_end_ore, alltheores:nickel_ore, ftbmaterials:nickel_deepslate_ore, alltheores:deepslate_nickel_ore, alltheores:other_nickel_ore, ftbmaterials:nickel_nether_ore]
-[20:28:20.711] [INFO]: [AutoHiding] Hiding 2/4 items for tag '#c:ores/lapis' -> [ftbmaterials:lapis_lazuli_end_ore, ftbmaterials:lapis_lazuli_nether_ore]
-[20:28:20.711] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:ingots/zinc' -> [ftbmaterials:zinc_ingot, alltheores:zinc_ingot]
-[20:28:20.711] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:plates/copper' -> [alltheores:copper_plate, ftbmaterials:copper_plate, immersiveengineering:plate_copper]
-[20:28:20.711] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:storage_blocks/silver' -> [occultism:silver_block, ftbmaterials:silver_block, alltheores:silver_block]
-[20:28:20.712] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:dusts/silver' -> [ftbmaterials:silver_dust, alltheores:silver_dust, occultism:silver_dust]
-[20:28:20.712] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:dusts/netherite' -> [occultism:netherite_dust, alltheores:netherite_dust, ftbmaterials:netherite_dust]
-[20:28:20.712] [INFO]: [AutoHiding] Hiding 4/5 items for tag '#c:dusts/gold' -> [mekanism:dust_gold, occultism:gold_dust, alltheores:gold_dust, ftbmaterials:gold_dust]
-[20:28:20.712] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:plates/steel' -> [alltheores:steel_plate, ftbmaterials:steel_plate]
-[20:28:20.712] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:plates/gold' -> [ftbmaterials:gold_plate, alltheores:gold_plate, immersiveengineering:plate_gold]
-[20:28:20.712] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:nuggets/nickel' -> [alltheores:nickel_nugget, ftbmaterials:nickel_nugget]
-[20:28:20.712] [INFO]: [AutoHiding] Hiding 2/4 items for tag '#c:ores/iron' -> [ftbmaterials:iron_end_ore, ftbmaterials:iron_nether_ore]
-[20:28:20.713] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:ingots/steel' -> [mekanism:ingot_steel, alltheores:steel_ingot, ftbmaterials:steel_ingot]
-[20:28:20.713] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:dusts/steel' -> [alltheores:steel_dust, mekanism:dust_steel, ftbmaterials:steel_dust]
-[20:28:20.713] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/raw_tin' -> [ftbmaterials:tin_raw_block, alltheores:raw_tin_block]
-[20:28:20.713] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:ingots/uranium' -> [alltheores:uranium_ingot, ftbmaterials:uranium_ingot, mekanism:ingot_uranium]
-[20:28:20.713] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:rods/netherite' -> [alltheores:netherite_rod, ftbmaterials:netherite_rod]
-[20:28:20.713] [INFO]: [AutoHiding] Hiding 7/11 items for tag '#c:ores/aluminum' -> [alltheores:deepslate_aluminum_ore, alltheores:other_aluminum_ore, ftbmaterials:aluminum_nether_ore, ftbmaterials:aluminum_end_ore, ftbmaterials:aluminum_deepslate_ore, alltheores:aluminum_ore, ftbmaterials:aluminum_stone_ore]
-[20:28:20.714] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:nuggets/uranium' -> [alltheores:uranium_nugget, ftbmaterials:uranium_nugget, mekanism:nugget_uranium]
-[20:28:20.714] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/raw_zinc' -> [alltheores:raw_zinc_block, ftbmaterials:zinc_raw_block]
-[20:28:20.714] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/osmium' -> [ftbmaterials:osmium_block, alltheores:osmium_block]
-[20:28:20.714] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:ingots/electrum' -> [createaddition:electrum_ingot, alltheores:electrum_ingot, ftbmaterials:electrum_ingot]
-[20:28:20.715] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:plates/iron' -> [ftbmaterials:iron_plate, alltheores:iron_plate, immersiveengineering:plate_iron]
-[20:28:20.715] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:raw_materials/nickel' -> [ftbmaterials:nickel_raw_ore, alltheores:raw_nickel]
-[20:28:20.715] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:ingots/lead' -> [ftbmaterials:lead_ingot, mekanism:ingot_lead, alltheores:lead_ingot]
-[20:28:20.715] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dusts/osmium' -> [alltheores:osmium_dust, ftbmaterials:osmium_dust]
-[20:28:20.715] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:dusts/diamond' -> [createaddition:diamond_grit, alltheores:diamond_dust, ftbmaterials:diamond_dust]
-[20:28:20.715] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:ingots/aluminum' -> [ftbmaterials:aluminum_ingot, alltheores:aluminum_ingot]
-[20:28:20.715] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:ingots/constantan' -> [alltheores:constantan_ingot, ftbmaterials:constantan_ingot]
-[20:28:20.716] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:raw_materials/aluminum' -> [ftbmaterials:aluminum_raw_ore, alltheores:raw_aluminum]
-[20:28:20.716] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:nuggets/copper' -> [alltheores:copper_nugget, ftbmaterials:copper_nugget, immersiveengineering:nugget_copper]
-[20:28:20.716] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:nuggets/brass' -> [ftbmaterials:brass_nugget, alltheores:brass_nugget]
-[20:28:20.716] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:nuggets/bronze' -> [alltheores:bronze_nugget, ftbmaterials:bronze_nugget]
-[20:28:20.716] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/brass' -> [ftbmaterials:brass_block, alltheores:brass_block]
-[20:28:20.716] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:raw_materials/uranium' -> [ftbmaterials:uranium_raw_ore, alltheores:raw_uranium, mekanism:raw_uranium]
-[20:28:20.716] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:storage_blocks/raw_lead' -> [alltheores:raw_lead_block, mekanism:block_raw_lead, ftbmaterials:lead_raw_block]
-[20:28:20.717] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dusts/constantan' -> [ftbmaterials:constantan_dust, alltheores:constantan_dust]
-[20:28:20.717] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:ingots/brass' -> [alltheores:brass_ingot, ftbmaterials:brass_ingot]
-[20:28:20.717] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/raw_osmium' -> [alltheores:raw_osmium_block, ftbmaterials:osmium_raw_block]
-[20:28:20.717] [INFO]: [AutoHiding] Hiding 7/11 items for tag '#c:ores/osmium' -> [alltheores:osmium_ore, ftbmaterials:osmium_end_ore, ftbmaterials:osmium_nether_ore, ftbmaterials:osmium_deepslate_ore, ftbmaterials:osmium_stone_ore, alltheores:deepslate_osmium_ore, alltheores:other_osmium_ore]
-[20:28:20.717] [INFO]: [AutoHiding] Hiding 7/11 items for tag '#c:ores/zinc' -> [ftbmaterials:zinc_stone_ore, ftbmaterials:zinc_nether_ore, alltheores:other_zinc_ore, ftbmaterials:zinc_end_ore, alltheores:zinc_ore, ftbmaterials:zinc_deepslate_ore, alltheores:deepslate_zinc_ore]
-[20:28:20.718] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dusts/fluorite' -> [ftbmaterials:fluorite_dust, alltheores:fluorite_dust]
-[20:28:20.718] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/fluorite' -> [alltheores:fluorite_block, ftbmaterials:fluorite_block]
-[20:28:20.718] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:storage_blocks/uranium' -> [mekanism:block_uranium, alltheores:uranium_block, ftbmaterials:uranium_block]
-[20:28:20.718] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:wires/copper' -> [createaddition:copper_wire, ftbmaterials:copper_wire]
-[20:28:20.718] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:nuggets/netherite' -> [ftbmaterials:netherite_nugget]
-[20:28:20.719] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:raw_materials/tin' -> [ftbmaterials:tin_raw_ore, alltheores:raw_tin]
-[20:28:20.719] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:nuggets/tin' -> [alltheores:tin_nugget, ftbmaterials:tin_nugget]
-[20:28:20.719] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:wires/lead' -> [ftbmaterials:lead_wire]
-[20:28:20.719] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:gems/fluorite' -> [ftbmaterials:fluorite_gem, alltheores:fluorite]
-[20:28:20.719] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/obsidian' -> [ftbmaterials:obsidian_plate]
-[20:28:20.719] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:rods/aluminum' -> [ftbmaterials:aluminum_rod, alltheores:aluminum_rod]
-[20:28:20.719] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/constantan' -> [ftbmaterials:constantan_block, alltheores:constantan_block]
-[20:28:20.720] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:dusts/uranium' -> [ftbmaterials:uranium_dust, alltheores:uranium_dust, mekanism:dust_uranium]
-[20:28:20.720] [INFO]: [AutoHiding] Hiding 9/13 items for tag '#c:ores/lead' -> [ftbmaterials:lead_deepslate_ore, alltheores:lead_ore, mekanism:lead_ore, alltheores:deepslate_lead_ore, alltheores:other_lead_ore, ftbmaterials:lead_stone_ore, ftbmaterials:lead_end_ore, mekanism:deepslate_lead_ore, ftbmaterials:lead_nether_ore]
-[20:28:20.720] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/tin' -> [ftbmaterials:tin_block, alltheores:tin_block]
-[20:28:20.721] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/raw_aluminum' -> [alltheores:raw_aluminum_block, ftbmaterials:aluminum_raw_block]
-[20:28:20.721] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:storage_blocks/raw_uranium' -> [mekanism:block_raw_uranium, ftbmaterials:uranium_raw_block, alltheores:raw_uranium_block]
-[20:28:20.721] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:plates/nickel' -> [alltheores:nickel_plate, ftbmaterials:nickel_plate]
-[20:28:20.721] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:plates/electrum' -> [ftbmaterials:electrum_plate, alltheores:electrum_plate, createaddition:electrum_sheet]
-[20:28:20.721] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:nuggets/steel' -> [alltheores:steel_nugget, mekanism:nugget_steel, ftbmaterials:steel_nugget]
-[20:28:20.721] [INFO]: [AutoHiding] Hiding 4/5 items for tag '#c:dusts/copper' -> [alltheores:copper_dust, mekanism:dust_copper, ftbmaterials:copper_dust, occultism:copper_dust]
-[20:28:20.721] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dusts/bronze' -> [ftbmaterials:bronze_dust, alltheores:bronze_dust]
-[20:28:20.722] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:rods/iron' -> [ftbmaterials:iron_rod, alltheores:iron_rod, createaddition:iron_rod]
-[20:28:20.722] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:raw_materials/silver' -> [ftbmaterials:silver_raw_ore, occultism:raw_silver, alltheores:raw_silver]
-[20:28:20.722] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:plates/constantan' -> [alltheores:constantan_plate, ftbmaterials:constantan_plate]
-[20:28:20.722] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/bronze' -> [ftbmaterials:bronze_block, alltheores:bronze_block]
-[20:28:20.722] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:wires/electrum' -> [createaddition:electrum_wire, ftbmaterials:electrum_wire]
-[20:28:20.722] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:storage_blocks/electrum' -> [ftbmaterials:electrum_block, alltheores:electrum_block, createaddition:electrum_block]
-[20:28:20.722] [INFO]: [AutoHiding] Hiding 2/4 items for tag '#c:ores/emerald' -> [ftbmaterials:emerald_end_ore, ftbmaterials:emerald_nether_ore]
-[20:28:20.722] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:wires/aluminum' -> [ftbmaterials:aluminum_wire]
-[20:28:20.723] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:plates/uranium' -> [alltheores:uranium_plate, ftbmaterials:uranium_plate]
-[20:28:20.723] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dusts/electrum' -> [alltheores:electrum_dust, ftbmaterials:electrum_dust]
-[20:28:20.723] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:plates/lead' -> [ftbmaterials:lead_plate, alltheores:lead_plate]
-[20:28:20.723] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:dusts/lead' -> [ftbmaterials:lead_dust, alltheores:lead_dust, mekanism:dust_lead]
-[20:28:20.723] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/zinc' -> [alltheores:zinc_block, ftbmaterials:zinc_block]
-[20:28:20.723] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:plates/silver' -> [ftbmaterials:silver_plate, alltheores:silver_plate]
-[20:28:20.724] [INFO]: [AutoHiding] Hiding 9/13 items for tag '#c:ores/uranium' -> [alltheores:uranium_ore, ftbmaterials:uranium_nether_ore, alltheores:deepslate_uranium_ore, alltheores:other_uranium_ore, ftbmaterials:uranium_deepslate_ore, mekanism:deepslate_uranium_ore, ftbmaterials:uranium_end_ore, mekanism:uranium_ore, ftbmaterials:uranium_stone_ore]
-[20:28:20.724] [INFO]: [AutoHiding] Hiding 9/13 items for tag '#c:ores/silver' -> [occultism:silver_ore, ftbmaterials:silver_nether_ore, ftbmaterials:silver_deepslate_ore, alltheores:other_silver_ore, alltheores:deepslate_silver_ore, alltheores:silver_ore, ftbmaterials:silver_end_ore, ftbmaterials:silver_stone_ore, occultism:silver_ore_deepslate]
-[20:28:20.724] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dusts/nickel' -> [alltheores:nickel_dust, ftbmaterials:nickel_dust]
-[20:28:20.724] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:nuggets/constantan' -> [alltheores:constantan_nugget, ftbmaterials:constantan_nugget]
-[20:28:20.725] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/nickel' -> [alltheores:nickel_block, ftbmaterials:nickel_block]
-[20:28:20.725] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dusts/emerald' -> [ftbmaterials:emerald_dust, occultism:emerald_dust]
-[20:28:20.725] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dusts/aluminum' -> [ftbmaterials:aluminum_dust, alltheores:aluminum_dust]
-[20:28:20.725] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:dusts/obsidian' -> [ftbmaterials:obsidian_dust, mekanism:dust_obsidian, occultism:obsidian_dust]
-[20:28:20.725] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:nuggets/silver' -> [occultism:silver_nugget, ftbmaterials:silver_nugget, alltheores:silver_nugget]
-[20:28:20.726] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:nuggets/electrum' -> [createaddition:electrum_nugget, alltheores:electrum_nugget, ftbmaterials:electrum_nugget]
-[20:28:20.726] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:storage_blocks/lead' -> [mekanism:block_lead, ftbmaterials:lead_block, alltheores:lead_block]
-[20:28:20.726] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:storage_blocks/raw_silver' -> [alltheores:raw_silver_block, ftbmaterials:silver_raw_block, occultism:raw_silver_block]
-[20:28:20.726] [INFO]: [AutoHiding] Hiding 7/11 items for tag '#c:ores/tin' -> [ftbmaterials:tin_end_ore, ftbmaterials:tin_nether_ore, alltheores:tin_ore, ftbmaterials:tin_deepslate_ore, alltheores:other_tin_ore, alltheores:deepslate_tin_ore, ftbmaterials:tin_stone_ore]
-[20:28:20.726] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:ingots/tin' -> [ftbmaterials:tin_ingot, alltheores:tin_ingot]
-[20:28:20.727] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:nuggets/aluminum' -> [alltheores:aluminum_nugget, ftbmaterials:aluminum_nugget]
-[20:28:20.727] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:nuggets/lead' -> [ftbmaterials:lead_nugget, mekanism:nugget_lead, alltheores:lead_nugget]
-[20:28:20.727] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:ingots/bronze' -> [alltheores:bronze_ingot, ftbmaterials:bronze_ingot]
-[20:28:20.727] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:plates/aluminum' -> [alltheores:aluminum_plate, ftbmaterials:aluminum_plate]
-[20:28:20.728] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:raw_materials/lead' -> [mekanism:raw_lead, ftbmaterials:lead_raw_ore, alltheores:raw_lead]
-[20:28:20.728] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:raw_materials/osmium' -> [alltheores:raw_osmium, ftbmaterials:osmium_raw_ore]
-[20:28:20.728] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:nuggets/osmium' -> [ftbmaterials:osmium_nugget, alltheores:osmium_nugget]
-[20:28:20.728] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:rods/steel' -> [ftbmaterials:steel_rod, alltheores:steel_rod]
-[20:28:20.728] [INFO]: [AutoHiding] Hiding 4/5 items for tag '#c:dusts/iron' -> [ftbmaterials:iron_dust, mekanism:dust_iron, occultism:iron_dust, alltheores:iron_dust]
-[20:28:20.728] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:ingots/silver' -> [alltheores:silver_ingot, ftbmaterials:silver_ingot, occultism:silver_ingot]
-[20:28:20.729] [INFO]: [AutoHiding] Hiding 2/5 items for tag '#c:ores/gold' -> [ftbmaterials:gold_nether_ore, ftbmaterials:gold_end_ore]
-[20:28:20.729] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:dusts/sulfur' -> [ftbmaterials:sulfur_dust, mekanism:dust_sulfur, alltheores:sulfur]
-[20:28:20.729] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dusts/tin' -> [alltheores:tin_dust, ftbmaterials:tin_dust]
-[20:28:20.729] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:wires/steel' -> [ftbmaterials:steel_wire]
-[20:28:20.729] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:plates/brass' -> [ftbmaterials:brass_plate, alltheores:brass_plate]
-[20:28:20.729] [INFO]: [AutoHiding] Hiding 2/4 items for tag '#c:ores/diamond' -> [ftbmaterials:diamond_nether_ore, ftbmaterials:diamond_end_ore]
-[20:28:20.730] [INFO]: [AutoHiding] Hiding 2/4 items for tag '#c:ores/copper' -> [ftbmaterials:copper_end_ore, ftbmaterials:copper_nether_ore]
-[20:28:20.730] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dusts/lapis' -> [ftbmaterials:lapis_lazuli_dust, occultism:lapis_dust]
-[20:28:20.730] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:nuggets/zinc' -> [ftbmaterials:zinc_nugget, alltheores:zinc_nugget]
-[20:28:20.730] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/aluminum' -> [ftbmaterials:aluminum_block, alltheores:aluminum_block]
-[20:28:20.730] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:storage_blocks/steel' -> [ftbmaterials:steel_block, alltheores:steel_block, mekanism:block_steel]
-[20:28:20.730] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:ingots/nickel' -> [alltheores:nickel_ingot, ftbmaterials:nickel_ingot]
-[20:28:20.731] [INFO]: [AutoHiding] Hiding 7/11 items for tag '#c:ores/fluorite' -> [alltheores:deepslate_fluorite_ore, alltheores:other_fluorite_ore, ftbmaterials:fluorite_nether_ore, ftbmaterials:fluorite_stone_ore, ftbmaterials:fluorite_deepslate_ore, alltheores:fluorite_ore, ftbmaterials:fluorite_end_ore]
-[20:28:20.731] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:raw_materials/zinc' -> [alltheores:raw_zinc, ftbmaterials:zinc_raw_ore]
-[20:28:20.731] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:ingots/osmium' -> [alltheores:osmium_ingot, ftbmaterials:osmium_ingot]
-[20:28:21.393] [INFO]: Loading config 'duplicates.json'.
-[20:28:21.397] [WARN]: Config 'duplicates.json' not found. Creating default config.
-[20:28:21.399] [INFO]: Recipe count: 14378
-[20:28:21.521] [INFO]: 12085 out of 14378 recipes were loaded for unification.
-[20:28:22.249] [INFO]: Recipe count afterwards: 13833 (done in 849.1 ms)
+[20:50:22.932] [INFO]: Loading config 'startup.json'.
+[20:50:33.102] [INFO]: Loaded plugins: almostunified:common, almostunified:neoforge
+[20:51:11.078] [WARN]: Reload detected. Reconstructing runtime.
+[20:51:11.081] [INFO]: Loading config 'debug.json'.
+[20:51:11.084] [INFO]: Loading config 'placeholders.json'.
+[20:51:11.088] [INFO]: Loading config 'tags.json'.
+[20:51:11.139] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:gears/electrum' -> [ftbmaterials:electrum_gear]
+[20:51:11.140] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:rods/bronze' -> [ftbmaterials:bronze_rod]
+[20:51:11.140] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/netherite' -> [ftbmaterials:netherite_plate]
+[20:51:11.140] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:storage_blocks/uranium' -> [immersiveengineering:storage_uranium, mekanism:block_uranium, ftbmaterials:uranium_block]
+[20:51:11.140] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:rods/gold' -> [createaddition:gold_rod, ftbmaterials:gold_rod]
+[20:51:11.140] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/invar' -> [ftbmaterials:invar_plate]
+[20:51:11.141] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:nuggets/electrum' -> [immersiveengineering:nugget_electrum, createaddition:electrum_nugget, ftbmaterials:electrum_nugget]
+[20:51:11.141] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:rods/copper' -> [createaddition:copper_rod, ftbmaterials:copper_rod]
+[20:51:11.141] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/zinc' -> [ftbmaterials:zinc_dust]
+[20:51:11.141] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:shards/zinc' -> [ftbmaterials:zinc_shard]
+[20:51:11.141] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:gears/aluminum' -> [ftbmaterials:aluminum_gear]
+[20:51:11.141] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:nuggets/aluminum' -> [ftbmaterials:aluminum_nugget, immersiveengineering:nugget_aluminum]
+[20:51:11.141] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:shards/aluminum' -> [ftbmaterials:aluminum_shard]
+[20:51:11.141] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/tin' -> [ftbmaterials:tin_block, mekanism:block_tin]
+[20:51:11.141] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dirty_dusts/gold' -> [ftbmaterials:gold_dirty_dust, mekanism:dirty_dust_gold]
+[20:51:11.141] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/nickel' -> [ftbmaterials:nickel_block, immersiveengineering:storage_nickel]
+[20:51:11.142] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dirty_dusts/nickel' -> [ftbmaterials:nickel_dirty_dust]
+[20:51:11.142] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:storage_blocks/raw_lead' -> [immersiveengineering:raw_block_lead, mekanism:block_raw_lead, ftbmaterials:lead_raw_block]
+[20:51:11.142] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/invar' -> [ftbmaterials:invar_dust]
+[20:51:11.142] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:gears/iron' -> [industrialforegoing:iron_gear, ftbmaterials:iron_gear]
+[20:51:11.142] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/iridium' -> [ftbmaterials:iridium_dust]
+[20:51:11.142] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dusts/lapis' -> [ftbmaterials:lapis_lazuli_dust, occultism:lapis_dust]
+[20:51:11.142] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/iridium' -> [ftbmaterials:iridium_plate]
+[20:51:11.142] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:shards/nickel' -> [ftbmaterials:nickel_shard]
+[20:51:11.142] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:rods/steel' -> [ftbmaterials:steel_rod, immersiveengineering:stick_steel]
+[20:51:11.143] [INFO]: [AutoHiding] Hiding 7/11 items for tag '#c:ores/zinc' -> [create:deepslate_zinc_ore, ftbmaterials:zinc_stone_ore, ftbmaterials:zinc_nether_ore, alltheores:other_zinc_ore, ftbmaterials:zinc_end_ore, create:zinc_ore, ftbmaterials:zinc_deepslate_ore]
+[20:51:11.143] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:ingots/tin' -> [ftbmaterials:tin_ingot, mekanism:ingot_tin]
+[20:51:11.144] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dusts/constantan' -> [ftbmaterials:constantan_dust, immersiveengineering:dust_constantan]
+[20:51:11.144] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:nuggets/constantan' -> [immersiveengineering:nugget_constantan, ftbmaterials:constantan_nugget]
+[20:51:11.144] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:crystals/gold' -> [mekanism:crystal_gold, ftbmaterials:gold_crystal]
+[20:51:11.144] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:clumps/silver' -> [ftbmaterials:silver_clump]
+[20:51:11.144] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:ingots/silver' -> [ftbmaterials:silver_ingot, occultism:silver_ingot, immersiveengineering:ingot_silver]
+[20:51:11.144] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dusts/tin' -> [mekanism:dust_tin, ftbmaterials:tin_dust]
+[20:51:11.144] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:raw_materials/lead' -> [mekanism:raw_lead, immersiveengineering:raw_lead, ftbmaterials:lead_raw_ore]
+[20:51:11.144] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dirty_dusts/iridium' -> [ftbmaterials:iridium_dirty_dust]
+[20:51:11.145] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/cinnabar' -> [ftbmaterials:cinnabar_dust]
+[20:51:11.145] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:wires/copper' -> [createaddition:copper_wire, ftbmaterials:copper_wire]
+[20:51:11.145] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:rods/diamond' -> [ftbmaterials:diamond_rod]
+[20:51:11.145] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:gears/zinc' -> [ftbmaterials:zinc_gear]
+[20:51:11.145] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:shards/tin' -> [mekanism:shard_tin, ftbmaterials:tin_shard]
+[20:51:11.145] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:ingots/osmium' -> [mekanism:ingot_osmium, ftbmaterials:osmium_ingot]
+[20:51:11.145] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/lumium' -> [ftbmaterials:lumium_block]
+[20:51:11.145] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:gems/cinnabar' -> [ftbmaterials:cinnabar_gem]
+[20:51:11.145] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:plates/lead' -> [ftbmaterials:lead_plate, immersiveengineering:plate_lead]
+[20:51:11.145] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:dusts/uranium' -> [ftbmaterials:uranium_dust, immersiveengineering:dust_uranium, mekanism:dust_uranium]
+[20:51:11.146] [INFO]: [AutoHiding] Hiding 4/5 items for tag '#c:dusts/iron' -> [ftbmaterials:iron_dust, mekanism:dust_iron, occultism:iron_dust, immersiveengineering:dust_iron]
+[20:51:11.146] [INFO]: [AutoHiding] Hiding 5/9 items for tag '#c:ores/sapphire' -> [ftbmaterials:sapphire_nether_ore, ftbmaterials:sapphire_stone_ore, ftbmaterials:sapphire_deepslate_ore, alltheores:other_sapphire_ore, ftbmaterials:sapphire_end_ore]
+[20:51:11.146] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dirty_dusts/aluminum' -> [ftbmaterials:aluminum_dirty_dust]
+[20:51:11.146] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:rods/nickel' -> [ftbmaterials:nickel_rod]
+[20:51:11.146] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:shards/lead' -> [ftbmaterials:lead_shard, mekanism:shard_lead]
+[20:51:11.146] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:gears/brass' -> [ftbmaterials:brass_gear]
+[20:51:11.146] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:storage_blocks/steel' -> [ftbmaterials:steel_block, mekanism:block_steel, immersiveengineering:storage_steel]
+[20:51:11.147] [INFO]: [AutoHiding] Hiding 5/9 items for tag '#c:ores/iridium' -> [alltheores:other_iridium_ore, ftbmaterials:iridium_stone_ore, ftbmaterials:iridium_end_ore, ftbmaterials:iridium_nether_ore, ftbmaterials:iridium_deepslate_ore]
+[20:51:11.147] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:shards/copper' -> [ftbmaterials:copper_shard, mekanism:shard_copper]
+[20:51:11.147] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:clumps/osmium' -> [mekanism:clump_osmium, ftbmaterials:osmium_clump]
+[20:51:11.147] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:plates/constantan' -> [ftbmaterials:constantan_plate, immersiveengineering:plate_constantan]
+[20:51:11.147] [INFO]: [AutoHiding] Hiding 2/4 items for tag '#c:ores/copper' -> [ftbmaterials:copper_end_ore, ftbmaterials:copper_nether_ore]
+[20:51:11.147] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/bronze' -> [mekanism:block_bronze, ftbmaterials:bronze_block]
+[20:51:11.148] [INFO]: [AutoHiding] Hiding 9/13 items for tag '#c:ores/lead' -> [ftbmaterials:lead_deepslate_ore, mekanism:lead_ore, alltheores:other_lead_ore, ftbmaterials:lead_stone_ore, ftbmaterials:lead_end_ore, immersiveengineering:ore_lead, immersiveengineering:deepslate_ore_lead, mekanism:deepslate_lead_ore, ftbmaterials:lead_nether_ore]
+[20:51:11.148] [INFO]: [AutoHiding] Hiding 2/4 items for tag '#c:ores/diamond' -> [ftbmaterials:diamond_nether_ore, ftbmaterials:diamond_end_ore]
+[20:51:11.148] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dirty_dusts/tin' -> [mekanism:dirty_dust_tin, ftbmaterials:tin_dirty_dust]
+[20:51:11.148] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/cinnabar' -> [ftbmaterials:cinnabar_block]
+[20:51:11.162] [INFO]: [AutoHiding] Hiding 7/11 items for tag '#c:ores/fluorite' -> [mekanism:deepslate_fluorite_ore, alltheores:other_fluorite_ore, mekanism:fluorite_ore, ftbmaterials:fluorite_nether_ore, ftbmaterials:fluorite_stone_ore, ftbmaterials:fluorite_deepslate_ore, ftbmaterials:fluorite_end_ore]
+[20:51:11.162] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/raw_iridium' -> [ftbmaterials:iridium_raw_block]
+[20:51:11.162] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:wires/electrum' -> [createaddition:electrum_wire, ftbmaterials:electrum_wire]
+[20:51:11.162] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:crystals/silver' -> [ftbmaterials:silver_crystal]
+[20:51:11.163] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:rods/constantan' -> [ftbmaterials:constantan_rod]
+[20:51:11.163] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:ingots/platinum' -> [ftbmaterials:platinum_ingot]
+[20:51:11.163] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:plates/zinc' -> [createaddition:zinc_sheet, ftbmaterials:zinc_plate]
+[20:51:11.163] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:raw_materials/zinc' -> [create:raw_zinc, ftbmaterials:zinc_raw_ore]
+[20:51:11.163] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dusts/electrum' -> [immersiveengineering:dust_electrum, ftbmaterials:electrum_dust]
+[20:51:11.163] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:plates/copper' -> [ftbmaterials:copper_plate, create:copper_sheet, immersiveengineering:plate_copper]
+[20:51:11.163] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dirty_dusts/osmium' -> [mekanism:dirty_dust_osmium, ftbmaterials:osmium_dirty_dust]
+[20:51:11.163] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/diamond' -> [ftbmaterials:diamond_plate]
+[20:51:11.163] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:dusts/steel' -> [mekanism:dust_steel, immersiveengineering:dust_steel, ftbmaterials:steel_dust]
+[20:51:11.164] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/aluminum' -> [ftbmaterials:aluminum_block, immersiveengineering:storage_aluminum]
+[20:51:11.164] [INFO]: [AutoHiding] Hiding 2/4 items for tag '#c:ores/emerald' -> [ftbmaterials:emerald_end_ore, ftbmaterials:emerald_nether_ore]
+[20:51:11.164] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:ingots/zinc' -> [create:zinc_ingot, ftbmaterials:zinc_ingot]
+[20:51:11.164] [INFO]: [AutoHiding] Hiding 2/4 items for tag '#c:ores/lapis' -> [ftbmaterials:lapis_lazuli_end_ore, ftbmaterials:lapis_lazuli_nether_ore]
+[20:51:11.164] [INFO]: [AutoHiding] Hiding 2/4 items for tag '#c:ores/iron' -> [ftbmaterials:iron_end_ore, ftbmaterials:iron_nether_ore]
+[20:51:11.164] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:nuggets/steel' -> [mekanism:nugget_steel, ftbmaterials:steel_nugget, immersiveengineering:nugget_steel]
+[20:51:11.164] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:rods/lumium' -> [ftbmaterials:lumium_rod]
+[20:51:11.164] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:gears/steel' -> [ftbmaterials:steel_gear]
+[20:51:11.164] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:gears/osmium' -> [ftbmaterials:osmium_gear]
+[20:51:11.165] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:plates/uranium' -> [immersiveengineering:plate_uranium, ftbmaterials:uranium_plate]
+[20:51:11.165] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:crystals/tin' -> [ftbmaterials:tin_crystal, mekanism:crystal_tin]
+[20:51:11.165] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:nuggets/uranium' -> [ftbmaterials:uranium_nugget, immersiveengineering:nugget_uranium, mekanism:nugget_uranium]
+[20:51:11.165] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:plates/steel' -> [immersiveengineering:plate_steel, ftbmaterials:steel_plate]
+[20:51:11.165] [INFO]: [AutoHiding] Hiding 9/13 items for tag '#c:ores/silver' -> [immersiveengineering:ore_silver, occultism:silver_ore, ftbmaterials:silver_nether_ore, ftbmaterials:silver_deepslate_ore, alltheores:other_silver_ore, immersiveengineering:deepslate_ore_silver, occultism:silver_ore_deepslate, ftbmaterials:silver_stone_ore, ftbmaterials:silver_end_ore]
+[20:51:11.165] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:clumps/uranium' -> [ftbmaterials:uranium_clump, mekanism:clump_uranium]
+[20:51:11.165] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:ingots/lumium' -> [ftbmaterials:lumium_ingot]
+[20:51:11.166] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:crystals/iron' -> [ftbmaterials:iron_crystal, mekanism:crystal_iron]
+[20:51:11.166] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:gems/ruby' -> [ftbmaterials:ruby_gem]
+[20:51:11.166] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dirty_dusts/zinc' -> [ftbmaterials:zinc_dirty_dust]
+[20:51:11.166] [INFO]: [AutoHiding] Hiding 9/13 items for tag '#c:ores/uranium' -> [ftbmaterials:uranium_nether_ore, ftbmaterials:uranium_deepslate_ore, alltheores:other_uranium_ore, mekanism:deepslate_uranium_ore, ftbmaterials:uranium_end_ore, immersiveengineering:ore_uranium, mekanism:uranium_ore, ftbmaterials:uranium_stone_ore, immersiveengineering:deepslate_ore_uranium]
+[20:51:11.166] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dirty_dusts/iron' -> [ftbmaterials:iron_dirty_dust, mekanism:dirty_dust_iron]
+[20:51:11.166] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:nuggets/nickel' -> [immersiveengineering:nugget_nickel, ftbmaterials:nickel_nugget]
+[20:51:11.167] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:shards/iron' -> [mekanism:shard_iron, ftbmaterials:iron_shard]
+[20:51:11.167] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:rods/electrum' -> [ftbmaterials:electrum_rod, createaddition:electrum_rod]
+[20:51:11.167] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/obsidian' -> [ftbmaterials:obsidian_plate]
+[20:51:11.167] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:dusts/sulfur' -> [ftbmaterials:sulfur_dust, immersiveengineering:dust_sulfur, mekanism:dust_sulfur]
+[20:51:11.167] [INFO]: [AutoHiding] Hiding 4/5 items for tag '#c:dusts/copper' -> [immersiveengineering:dust_copper, mekanism:dust_copper, occultism:copper_dust, ftbmaterials:copper_dust]
+[20:51:11.167] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:rods/netherite' -> [immersiveengineering:stick_netherite, ftbmaterials:netherite_rod]
+[20:51:11.168] [INFO]: [AutoHiding] Hiding 7/11 items for tag '#c:ores/aluminum' -> [alltheores:other_aluminum_ore, ftbmaterials:aluminum_nether_ore, immersiveengineering:deepslate_ore_aluminum, immersiveengineering:ore_aluminum, ftbmaterials:aluminum_end_ore, ftbmaterials:aluminum_stone_ore, ftbmaterials:aluminum_deepslate_ore]
+[20:51:11.168] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:nuggets/lumium' -> [ftbmaterials:lumium_nugget]
+[20:51:11.168] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:nuggets/netherite' -> [ftbmaterials:netherite_nugget]
+[20:51:11.168] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:dusts/obsidian' -> [ftbmaterials:obsidian_dust, mekanism:dust_obsidian, occultism:obsidian_dust]
+[20:51:11.168] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:dusts/diamond' -> [createaddition:diamond_grit, mekanism:dust_diamond, ftbmaterials:diamond_dust]
+[20:51:11.168] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:nuggets/silver' -> [occultism:silver_nugget, immersiveengineering:nugget_silver, ftbmaterials:silver_nugget]
+[20:51:11.168] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:shards/uranium' -> [mekanism:shard_uranium, ftbmaterials:uranium_shard]
+[20:51:11.169] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/sapphire' -> [ftbmaterials:sapphire_dust]
+[20:51:11.169] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/raw_platinum' -> [ftbmaterials:platinum_raw_block]
+[20:51:11.169] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/tin' -> [ftbmaterials:tin_plate]
+[20:51:11.169] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:clumps/gold' -> [ftbmaterials:gold_clump, mekanism:clump_gold]
+[20:51:11.169] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:plates/iron' -> [ftbmaterials:iron_plate, create:iron_sheet, immersiveengineering:plate_iron]
+[20:51:11.169] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:crystals/zinc' -> [ftbmaterials:zinc_crystal]
+[20:51:11.169] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/raw_zinc' -> [create:raw_zinc_block, ftbmaterials:zinc_raw_block]
+[20:51:11.169] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:gears/bronze' -> [ftbmaterials:bronze_gear]
+[20:51:11.169] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:gears/silver' -> [ftbmaterials:silver_gear]
+[20:51:11.169] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:dusts/lead' -> [ftbmaterials:lead_dust, immersiveengineering:dust_lead, mekanism:dust_lead]
+[20:51:11.170] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:crystals/iridium' -> [ftbmaterials:iridium_crystal]
+[20:51:11.170] [INFO]: [AutoHiding] Hiding 5/9 items for tag '#c:ores/platinum' -> [ftbmaterials:platinum_end_ore, ftbmaterials:platinum_deepslate_ore, ftbmaterials:platinum_stone_ore, ftbmaterials:platinum_nether_ore, alltheores:other_platinum_ore]
+[20:51:11.170] [INFO]: [AutoHiding] Hiding 5/9 items for tag '#c:ores/cinnabar' -> [ftbmaterials:cinnabar_deepslate_ore, alltheores:other_cinnabar_ore, ftbmaterials:cinnabar_nether_ore, ftbmaterials:cinnabar_end_ore, ftbmaterials:cinnabar_stone_ore]
+[20:51:11.170] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:gears/tin' -> [ftbmaterials:tin_gear]
+[20:51:11.170] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:ingots/lead' -> [ftbmaterials:lead_ingot, immersiveengineering:ingot_lead, mekanism:ingot_lead]
+[20:51:11.170] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:gears/lumium' -> [ftbmaterials:lumium_gear]
+[20:51:11.171] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:rods/platinum' -> [ftbmaterials:platinum_rod]
+[20:51:11.171] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:gears/constantan' -> [ftbmaterials:constantan_gear]
+[20:51:11.171] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:nuggets/bronze' -> [mekanism:nugget_bronze, ftbmaterials:bronze_nugget]
+[20:51:11.171] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:gears/lead' -> [ftbmaterials:lead_gear]
+[20:51:11.171] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dirty_dusts/silver' -> [ftbmaterials:silver_dirty_dust]
+[20:51:11.171] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:gears/uranium' -> [ftbmaterials:uranium_gear]
+[20:51:11.171] [INFO]: [AutoHiding] Hiding 7/11 items for tag '#c:ores/nickel' -> [ftbmaterials:nickel_stone_ore, ftbmaterials:nickel_end_ore, ftbmaterials:nickel_deepslate_ore, immersiveengineering:ore_nickel, alltheores:other_nickel_ore, immersiveengineering:deepslate_ore_nickel, ftbmaterials:nickel_nether_ore]
+[20:51:11.171] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/sulfur' -> [ftbmaterials:sulfur_block]
+[20:51:11.171] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:plates/aluminum' -> [immersiveengineering:plate_aluminum, ftbmaterials:aluminum_plate]
+[20:51:11.171] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:clumps/iridium' -> [ftbmaterials:iridium_clump]
+[20:51:11.172] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:wires/lead' -> [ftbmaterials:lead_wire]
+[20:51:11.172] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dirty_dusts/platinum' -> [ftbmaterials:platinum_dirty_dust]
+[20:51:11.172] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:rods/lead' -> [ftbmaterials:lead_rod]
+[20:51:11.172] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:ingots/bronze' -> [ftbmaterials:bronze_ingot, mekanism:ingot_bronze]
+[20:51:11.172] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:raw_materials/iridium' -> [ftbmaterials:iridium_raw_ore]
+[20:51:11.172] [INFO]: [AutoHiding] Hiding 7/11 items for tag '#c:ores/osmium' -> [mekanism:deepslate_osmium_ore, ftbmaterials:osmium_end_ore, mekanism:osmium_ore, ftbmaterials:osmium_nether_ore, ftbmaterials:osmium_deepslate_ore, ftbmaterials:osmium_stone_ore, alltheores:other_osmium_ore]
+[20:51:11.172] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:ingots/constantan' -> [immersiveengineering:ingot_constantan, ftbmaterials:constantan_ingot]
+[20:51:11.172] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:crystals/nickel' -> [ftbmaterials:nickel_crystal]
+[20:51:11.172] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:nuggets/invar' -> [ftbmaterials:invar_nugget]
+[20:51:11.172] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dirty_dusts/lead' -> [ftbmaterials:lead_dirty_dust, mekanism:dirty_dust_lead]
+[20:51:11.173] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:ingots/electrum' -> [createaddition:electrum_ingot, ftbmaterials:electrum_ingot, immersiveengineering:ingot_electrum]
+[20:51:11.173] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:ingots/iridium' -> [ftbmaterials:iridium_ingot]
+[20:51:11.173] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dusts/fluorite' -> [ftbmaterials:fluorite_dust, mekanism:dust_fluorite]
+[20:51:11.173] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:gears/copper' -> [ftbmaterials:copper_gear]
+[20:51:11.173] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:ingots/brass' -> [create:brass_ingot, ftbmaterials:brass_ingot]
+[20:51:11.173] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/raw_osmium' -> [ftbmaterials:osmium_raw_block, mekanism:block_raw_osmium]
+[20:51:11.173] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:nuggets/osmium' -> [ftbmaterials:osmium_nugget, mekanism:nugget_osmium]
+[20:51:11.173] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/brass' -> [ftbmaterials:brass_dust]
+[20:51:11.173] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:gears/nickel' -> [ftbmaterials:nickel_gear]
+[20:51:11.174] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:clumps/copper' -> [ftbmaterials:copper_clump, mekanism:clump_copper]
+[20:51:11.174] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:gears/platinum' -> [ftbmaterials:platinum_gear]
+[20:51:11.174] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:crystals/lead' -> [mekanism:crystal_lead, ftbmaterials:lead_crystal]
+[20:51:11.174] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:gems/sapphire' -> [ftbmaterials:sapphire_gem]
+[20:51:11.174] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/lumium' -> [ftbmaterials:lumium_plate]
+[20:51:11.174] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:rods/silver' -> [ftbmaterials:silver_rod]
+[20:51:11.174] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:gems/fluorite' -> [ftbmaterials:fluorite_gem, mekanism:fluorite_gem]
+[20:51:11.174] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/ruby' -> [ftbmaterials:ruby_dust]
+[20:51:11.174] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:nuggets/iridium' -> [ftbmaterials:iridium_nugget]
+[20:51:11.174] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:plates/nickel' -> [ftbmaterials:nickel_plate, immersiveengineering:plate_nickel]
+[20:51:11.174] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:gears/diamond' -> [ftbmaterials:diamond_gear, industrialforegoing:diamond_gear]
+[20:51:11.174] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/ruby' -> [ftbmaterials:ruby_block]
+[20:51:11.175] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:ingots/nickel' -> [ftbmaterials:nickel_ingot, immersiveengineering:ingot_nickel]
+[20:51:11.175] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:nuggets/platinum' -> [ftbmaterials:platinum_nugget]
+[20:51:11.175] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:shards/gold' -> [ftbmaterials:gold_shard, mekanism:shard_gold]
+[20:51:11.175] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:wires/steel' -> [ftbmaterials:steel_wire]
+[20:51:11.175] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:nuggets/lead' -> [ftbmaterials:lead_nugget, mekanism:nugget_lead, immersiveengineering:nugget_lead]
+[20:51:11.175] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:rods/invar' -> [ftbmaterials:invar_rod]
+[20:51:11.175] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:storage_blocks/silver' -> [occultism:silver_block, ftbmaterials:silver_block, immersiveengineering:storage_silver]
+[20:51:11.176] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:plates/gold' -> [create:golden_sheet, ftbmaterials:gold_plate, immersiveengineering:plate_gold]
+[20:51:11.176] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/osmium' -> [ftbmaterials:osmium_plate]
+[20:51:11.176] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:plates/brass' -> [create:brass_sheet, ftbmaterials:brass_plate]
+[20:51:11.176] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:clumps/nickel' -> [ftbmaterials:nickel_clump]
+[20:51:11.176] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:rods/zinc' -> [ftbmaterials:zinc_rod]
+[20:51:11.176] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/constantan' -> [ftbmaterials:constantan_block, immersiveengineering:storage_constantan]
+[20:51:11.176] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:clumps/platinum' -> [ftbmaterials:platinum_clump]
+[20:51:11.176] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:gears/invar' -> [ftbmaterials:invar_gear]
+[20:51:11.176] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:rods/aluminum' -> [ftbmaterials:aluminum_rod, immersiveengineering:stick_aluminum]
+[20:51:11.176] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:shards/silver' -> [ftbmaterials:silver_shard]
+[20:51:11.176] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/raw_aluminum' -> [ftbmaterials:aluminum_raw_block, immersiveengineering:raw_block_aluminum]
+[20:51:11.177] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:rods/iridium' -> [ftbmaterials:iridium_rod]
+[20:51:11.177] [INFO]: [AutoHiding] Hiding 2/5 items for tag '#c:ores/gold' -> [ftbmaterials:gold_nether_ore, ftbmaterials:gold_end_ore]
+[20:51:11.177] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:crystals/aluminum' -> [ftbmaterials:aluminum_crystal]
+[20:51:11.177] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:rods/uranium' -> [ftbmaterials:uranium_rod]
+[20:51:11.177] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/platinum' -> [ftbmaterials:platinum_dust]
+[20:51:11.177] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:shards/platinum' -> [ftbmaterials:platinum_shard]
+[20:51:11.177] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:clumps/iron' -> [mekanism:clump_iron, ftbmaterials:iron_clump]
+[20:51:11.177] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:crystals/copper' -> [mekanism:crystal_copper, ftbmaterials:copper_crystal]
+[20:51:11.178] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:plates/electrum' -> [ftbmaterials:electrum_plate, immersiveengineering:plate_electrum, createaddition:electrum_sheet]
+[20:51:11.178] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:rods/osmium' -> [ftbmaterials:osmium_rod]
+[20:51:11.178] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:nuggets/zinc' -> [ftbmaterials:zinc_nugget, create:zinc_nugget]
+[20:51:11.178] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:storage_blocks/raw_uranium' -> [mekanism:block_raw_uranium, ftbmaterials:uranium_raw_block, immersiveengineering:raw_block_uranium]
+[20:51:11.178] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:rods/tin' -> [ftbmaterials:tin_rod]
+[20:51:11.178] [INFO]: [AutoHiding] Hiding 7/11 items for tag '#c:ores/tin' -> [ftbmaterials:tin_end_ore, mekanism:tin_ore, ftbmaterials:tin_nether_ore, ftbmaterials:tin_deepslate_ore, alltheores:other_tin_ore, mekanism:deepslate_tin_ore, ftbmaterials:tin_stone_ore]
+[20:51:11.178] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:plates/silver' -> [ftbmaterials:silver_plate, immersiveengineering:plate_silver]
+[20:51:11.178] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:clumps/zinc' -> [ftbmaterials:zinc_clump]
+[20:51:11.179] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:gears/gold' -> [industrialforegoing:gold_gear, ftbmaterials:gold_gear]
+[20:51:11.179] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:raw_materials/silver' -> [ftbmaterials:silver_raw_ore, immersiveengineering:raw_silver, occultism:raw_silver]
+[20:51:11.179] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/zinc' -> [ftbmaterials:zinc_block, create:zinc_block]
+[20:51:11.179] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:ingots/steel' -> [mekanism:ingot_steel, immersiveengineering:ingot_steel, ftbmaterials:steel_ingot]
+[20:51:11.179] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/invar' -> [ftbmaterials:invar_block]
+[20:51:11.179] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:wires/aluminum' -> [ftbmaterials:aluminum_wire]
+[20:51:11.179] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dirty_dusts/uranium' -> [mekanism:dirty_dust_uranium, ftbmaterials:uranium_dirty_dust]
+[20:51:11.179] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:storage_blocks/electrum' -> [ftbmaterials:electrum_block, immersiveengineering:storage_electrum, createaddition:electrum_block]
+[20:51:11.179] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:raw_materials/platinum' -> [ftbmaterials:platinum_raw_ore]
+[20:51:11.180] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dusts/aluminum' -> [ftbmaterials:aluminum_dust, immersiveengineering:dust_aluminum]
+[20:51:11.180] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/bronze' -> [ftbmaterials:bronze_plate]
+[20:51:11.180] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/osmium' -> [mekanism:block_osmium, ftbmaterials:osmium_block]
+[20:51:11.180] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:crystals/platinum' -> [ftbmaterials:platinum_crystal]
+[20:51:11.180] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:dusts/silver' -> [immersiveengineering:dust_silver, ftbmaterials:silver_dust, occultism:silver_dust]
+[20:51:11.180] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/raw_tin' -> [ftbmaterials:tin_raw_block, mekanism:block_raw_tin]
+[20:51:11.180] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:shards/osmium' -> [ftbmaterials:osmium_shard, mekanism:shard_osmium]
+[20:51:11.180] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dusts/bronze' -> [mekanism:dust_bronze, ftbmaterials:bronze_dust]
+[20:51:11.180] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:rods/iron' -> [ftbmaterials:iron_rod, createaddition:iron_rod, immersiveengineering:stick_iron]
+[20:51:11.180] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:crystals/osmium' -> [ftbmaterials:osmium_crystal, mekanism:crystal_osmium]
+[20:51:11.181] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/raw_nickel' -> [ftbmaterials:nickel_raw_block, immersiveengineering:raw_block_nickel]
+[20:51:11.181] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:clumps/aluminum' -> [ftbmaterials:aluminum_clump]
+[20:51:11.181] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:ingots/uranium' -> [immersiveengineering:ingot_uranium, ftbmaterials:uranium_ingot, mekanism:ingot_uranium]
+[20:51:11.181] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:rods/brass' -> [createaddition:brass_rod, ftbmaterials:brass_rod]
+[20:51:11.181] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:raw_materials/tin' -> [ftbmaterials:tin_raw_ore, mekanism:raw_tin]
+[20:51:11.181] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:gears/netherite' -> [ftbmaterials:netherite_gear]
+[20:51:11.181] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:raw_materials/osmium' -> [mekanism:raw_osmium, ftbmaterials:osmium_raw_ore]
+[20:51:11.181] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/sapphire' -> [ftbmaterials:sapphire_block]
+[20:51:11.181] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/platinum' -> [ftbmaterials:platinum_block]
+[20:51:11.181] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dusts/osmium' -> [mekanism:dust_osmium, ftbmaterials:osmium_dust]
+[20:51:11.181] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:nuggets/brass' -> [ftbmaterials:brass_nugget, create:brass_nugget]
+[20:51:11.182] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:nuggets/tin' -> [mekanism:nugget_tin, ftbmaterials:tin_nugget]
+[20:51:11.182] [INFO]: [AutoHiding] Hiding 4/5 items for tag '#c:dusts/gold' -> [mekanism:dust_gold, occultism:gold_dust, immersiveengineering:dust_gold, ftbmaterials:gold_dust]
+[20:51:11.182] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/iridium' -> [ftbmaterials:iridium_block]
+[20:51:11.182] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dusts/nickel' -> [immersiveengineering:dust_nickel, ftbmaterials:nickel_dust]
+[20:51:11.182] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:ingots/aluminum' -> [ftbmaterials:aluminum_ingot, immersiveengineering:ingot_aluminum]
+[20:51:11.182] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:dusts/netherite' -> [occultism:netherite_dust, mekanism:dust_netherite, ftbmaterials:netherite_dust]
+[20:51:11.182] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:clumps/lead' -> [mekanism:clump_lead, ftbmaterials:lead_clump]
+[20:51:11.182] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/platinum' -> [ftbmaterials:platinum_plate]
+[20:51:11.182] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:raw_materials/nickel' -> [immersiveengineering:raw_nickel, ftbmaterials:nickel_raw_ore]
+[20:51:11.182] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/fluorite' -> [ftbmaterials:fluorite_block, mekanism:block_fluorite]
+[20:51:11.182] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:ingots/invar' -> [ftbmaterials:invar_ingot]
+[20:51:11.183] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:gears/iridium' -> [ftbmaterials:iridium_gear]
+[20:51:11.183] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:nuggets/copper' -> [immersiveengineering:nugget_copper, ftbmaterials:copper_nugget, create:copper_nugget]
+[20:51:11.183] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:shards/iridium' -> [ftbmaterials:iridium_shard]
+[20:51:11.183] [INFO]: [AutoHiding] Hiding 5/9 items for tag '#c:ores/sulfur' -> [alltheores:other_sulfur_ore, ftbmaterials:sulfur_end_ore, ftbmaterials:sulfur_nether_ore, ftbmaterials:sulfur_stone_ore, ftbmaterials:sulfur_deepslate_ore]
+[20:51:11.183] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/brass' -> [ftbmaterials:brass_block, create:brass_block]
+[20:51:11.183] [INFO]: [AutoHiding] Hiding 5/9 items for tag '#c:ores/ruby' -> [ftbmaterials:ruby_stone_ore, ftbmaterials:ruby_nether_ore, ftbmaterials:ruby_deepslate_ore, ftbmaterials:ruby_end_ore, alltheores:other_ruby_ore]
+[20:51:11.183] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:storage_blocks/raw_silver' -> [immersiveengineering:raw_block_silver, ftbmaterials:silver_raw_block, occultism:raw_silver_block]
+[20:51:11.183] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:crystals/uranium' -> [mekanism:crystal_uranium, ftbmaterials:uranium_crystal]
+[20:51:11.184] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dusts/emerald' -> [ftbmaterials:emerald_dust, occultism:emerald_dust]
+[20:51:11.184] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:clumps/tin' -> [ftbmaterials:tin_clump, mekanism:clump_tin]
+[20:51:11.184] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/lumium' -> [ftbmaterials:lumium_dust]
+[20:51:11.184] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:raw_materials/aluminum' -> [ftbmaterials:aluminum_raw_ore, immersiveengineering:raw_aluminum]
+[20:51:11.184] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dirty_dusts/copper' -> [mekanism:dirty_dust_copper, ftbmaterials:copper_dirty_dust]
+[20:51:11.184] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:storage_blocks/lead' -> [immersiveengineering:storage_lead, mekanism:block_lead, ftbmaterials:lead_block]
+[20:51:11.184] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:raw_materials/uranium' -> [immersiveengineering:raw_uranium, ftbmaterials:uranium_raw_ore, mekanism:raw_uranium]
+[20:51:11.757] [INFO]: Loading config 'duplicates.json'.
+[20:51:11.762] [INFO]: Recipe count: 14378
+[20:51:11.888] [INFO]: 12085 out of 14378 recipes were loaded for unification.
+[20:51:12.613] [INFO]: Recipe count afterwards: 13704 (done in 850.5 ms)
+[20:51:12.616] [INFO]: Loot table 'ftbmaterials:blocks/platinum_end_ore' was unified by: materials
+[20:51:12.617] [INFO]: Loot table 'immersiveengineering:blocks/storage_uranium' was unified by: materials
+[20:51:12.617] [INFO]: Loot table 'ftbmaterials:blocks/nickel_end_ore' was unified by: materials
+[20:51:12.617] [INFO]: Loot table 'ftbmaterials:blocks/lead_block' was unified by: materials
+[20:51:12.617] [INFO]: Loot table 'ftbmaterials:blocks/silver_nether_ore' was unified by: materials
+[20:51:12.618] [INFO]: Loot table 'ftbmaterials:blocks/fluorite_stone_ore' was unified by: materials
+[20:51:12.618] [INFO]: Loot table 'mekanism:blocks/block_raw_uranium' was unified by: materials
+[20:51:12.618] [INFO]: Loot table 'mekanism:blocks/block_raw_tin' was unified by: materials
+[20:51:12.618] [INFO]: Loot table 'ftbmaterials:blocks/electrum_block' was unified by: materials
+[20:51:12.618] [INFO]: Loot table 'immersiveengineering:blocks/raw_block_uranium' was unified by: materials
+[20:51:12.618] [INFO]: Loot table 'ftbmaterials:blocks/fluorite_deepslate_ore' was unified by: materials
+[20:51:12.619] [INFO]: Loot table 'ftbmaterials:blocks/nickel_nether_ore' was unified by: materials
+[20:51:12.619] [INFO]: Loot table 'immersiveengineering:blocks/storage_nickel' was unified by: materials
+[20:51:12.619] [INFO]: Loot table 'occultism:blocks/silver_ore_deepslate' was unified by: materials
+[20:51:12.620] [INFO]: Loot table 'ftbmaterials:blocks/invar_block' was unified by: materials
+[20:51:12.620] [INFO]: Loot table 'alltheores:blocks/other_silver_ore' was unified by: materials
+[20:51:12.620] [INFO]: Loot table 'ftbmaterials:blocks/zinc_stone_ore' was unified by: materials
+[20:51:12.621] [INFO]: Loot table 'createaddition:blocks/electrum_block' was unified by: materials
+[20:51:12.621] [INFO]: Loot table 'ftbmaterials:blocks/aluminum_block' was unified by: materials
+[20:51:12.621] [INFO]: Loot table 'ftbmaterials:blocks/ruby_block' was unified by: materials
+[20:51:12.621] [INFO]: Loot table 'ftbmaterials:blocks/iron_end_ore' was unified by: materials
+[20:51:12.621] [INFO]: Loot table 'ftbmaterials:blocks/sapphire_nether_ore' was unified by: materials
+[20:51:12.622] [INFO]: Loot table 'mekanism:blocks/deepslate_tin_ore' was unified by: materials
+[20:51:12.622] [INFO]: Loot table 'ftbmaterials:blocks/platinum_stone_ore' was unified by: materials
+[20:51:12.622] [INFO]: Loot table 'ftbmaterials:blocks/osmium_deepslate_ore' was unified by: materials
+[20:51:12.623] [INFO]: Loot table 'immersiveengineering:gameplay/hero_of_the_village/engineer' was unified by: materials
+[20:51:12.623] [INFO]: Loot table 'ftbmaterials:blocks/uranium_deepslate_ore' was unified by: materials
+[20:51:12.623] [INFO]: Loot table 'ftbmaterials:blocks/platinum_raw_block' was unified by: materials
+[20:51:12.623] [INFO]: Loot table 'ftbmaterials:blocks/cinnabar_end_ore' was unified by: materials
+[20:51:12.623] [INFO]: Loot table 'ftbmaterials:blocks/zinc_raw_block' was unified by: materials
+[20:51:12.623] [INFO]: Loot table 'alltheores:blocks/other_lead_ore' was unified by: materials
+[20:51:12.624] [INFO]: Loot table 'occultism:blocks/silver_ore' was unified by: materials
+[20:51:12.624] [INFO]: Loot table 'immersiveengineering:blocks/storage_constantan' was unified by: materials
+[20:51:12.624] [INFO]: Loot table 'create:blocks/deepslate_zinc_ore' was unified by: materials
+[20:51:12.624] [INFO]: Loot table 'mekanism:blocks/block_uranium' was unified by: materials
+[20:51:12.624] [INFO]: Loot table 'immersiveengineering:blocks/raw_block_lead' was unified by: materials
+[20:51:12.625] [INFO]: Loot table 'immersiveengineering:blocks/deepslate_ore_nickel' was unified by: materials
+[20:51:12.625] [INFO]: Loot table 'immersiveengineering:blocks/ore_nickel' was unified by: materials
+[20:51:12.625] [INFO]: Loot table 'immersiveengineering:entities/fusilier' was unified by: materials
+[20:51:12.625] [INFO]: Loot table 'mekanism:blocks/fluorite_ore' was unified by: materials
+[20:51:12.625] [INFO]: Loot table 'ftbmaterials:blocks/nickel_block' was unified by: materials
+[20:51:12.625] [INFO]: Loot table 'ftbmaterials:blocks/nickel_stone_ore' was unified by: materials
+[20:51:12.626] [INFO]: Loot table 'ftbmaterials:blocks/iridium_end_ore' was unified by: materials
+[20:51:12.626] [INFO]: Loot table 'mekanism:blocks/block_osmium' was unified by: materials
+[20:51:12.626] [INFO]: Loot table 'ftbmaterials:blocks/fluorite_block' was unified by: materials
+[20:51:12.626] [INFO]: Loot table 'mekanism:blocks/block_raw_lead' was unified by: materials
+[20:51:12.626] [INFO]: Loot table 'ftbmaterials:blocks/osmium_stone_ore' was unified by: materials
+[20:51:12.627] [INFO]: Loot table 'ftbmaterials:blocks/cinnabar_nether_ore' was unified by: materials
+[20:51:12.627] [INFO]: Loot table 'ftbmaterials:blocks/tin_deepslate_ore' was unified by: materials
+[20:51:12.627] [INFO]: Loot table 'ftbmaterials:blocks/copper_nether_ore' was unified by: materials
+[20:51:12.627] [INFO]: Loot table 'ftbmaterials:blocks/iridium_raw_block' was unified by: materials
+[20:51:12.627] [INFO]: Loot table 'alltheores:blocks/other_peridot_ore' was unified by: materials
+[20:51:12.629] [INFO]: Loot table 'ftbmaterials:blocks/zinc_block' was unified by: materials
+[20:51:12.629] [INFO]: Loot table 'alltheores:blocks/other_fluorite_ore' was unified by: materials
+[20:51:12.630] [INFO]: Loot table 'ftbmaterials:blocks/iridium_stone_ore' was unified by: materials
+[20:51:12.630] [INFO]: Loot table 'ftbmaterials:blocks/sapphire_stone_ore' was unified by: materials
+[20:51:12.630] [INFO]: Loot table 'immersiveengineering:blocks/deepslate_ore_lead' was unified by: materials
+[20:51:12.630] [INFO]: Loot table 'immersiveengineering:blocks/deepslate_ore_silver' was unified by: materials
+[20:51:12.631] [INFO]: Loot table 'ftbmaterials:blocks/diamond_end_ore' was unified by: materials
+[20:51:12.631] [INFO]: Loot table 'ftbmaterials:blocks/zinc_deepslate_ore' was unified by: materials
+[20:51:12.631] [INFO]: Loot table 'immersiveengineering:blocks/raw_block_nickel' was unified by: materials
+[20:51:12.634] [INFO]: Loot table 'immersiveengineering:blocks/ore_silver' was unified by: materials
+[20:51:12.634] [INFO]: Loot table 'ftbmaterials:blocks/zinc_end_ore' was unified by: materials
+[20:51:12.634] [INFO]: Loot table 'ftbmaterials:blocks/ruby_nether_ore' was unified by: materials
+[20:51:12.634] [INFO]: Loot table 'immersiveengineering:blocks/ore_aluminum' was unified by: materials
+[20:51:12.634] [INFO]: Loot table 'alltheores:blocks/other_iridium_ore' was unified by: materials
+[20:51:12.634] [INFO]: Loot table 'ftbmaterials:blocks/constantan_block' was unified by: materials
+[20:51:12.635] [INFO]: Loot table 'ftbmaterials:blocks/sulfur_deepslate_ore' was unified by: materials
+[20:51:12.635] [INFO]: Loot table 'ftbmaterials:blocks/osmium_nether_ore' was unified by: materials
+[20:51:12.635] [INFO]: Loot table 'alltheores:blocks/other_sulfur_ore' was unified by: materials
+[20:51:12.635] [INFO]: Loot table 'ftbmaterials:blocks/lapis_lazuli_end_ore' was unified by: materials
+[20:51:12.635] [INFO]: Loot table 'ftbmaterials:blocks/nickel_raw_block' was unified by: materials
+[20:51:12.635] [INFO]: Loot table 'ftbmaterials:blocks/sapphire_block' was unified by: materials
+[20:51:12.635] [INFO]: Loot table 'ftbmaterials:blocks/sulfur_block' was unified by: materials
+[20:51:12.635] [INFO]: Loot table 'ftbmaterials:blocks/tin_end_ore' was unified by: materials
+[20:51:12.636] [INFO]: Loot table 'ftbmaterials:blocks/iron_nether_ore' was unified by: materials
+[20:51:12.636] [INFO]: Loot table 'ftbmaterials:blocks/sapphire_deepslate_ore' was unified by: materials
+[20:51:12.636] [INFO]: Loot table 'immersiveengineering:blocks/storage_silver' was unified by: materials
+[20:51:12.636] [INFO]: Loot table 'immersiveengineering:blocks/deepslate_ore_aluminum' was unified by: materials
+[20:51:12.636] [INFO]: Loot table 'ftbmaterials:blocks/silver_deepslate_ore' was unified by: materials
+[20:51:12.637] [INFO]: Loot table 'ftbmaterials:blocks/cinnabar_stone_ore' was unified by: materials
+[20:51:12.637] [INFO]: Loot table 'ftbmaterials:blocks/aluminum_end_ore' was unified by: materials
+[20:51:12.637] [INFO]: Loot table 'ftbmaterials:blocks/ruby_deepslate_ore' was unified by: materials
+[20:51:12.637] [INFO]: Loot table 'alltheores:blocks/other_cinnabar_ore' was unified by: materials
+[20:51:12.638] [INFO]: Loot table 'alltheores:blocks/other_tin_ore' was unified by: materials
+[20:51:12.638] [INFO]: Loot table 'create:blocks/brass_block' was unified by: materials
+[20:51:12.638] [INFO]: Loot table 'ftbmaterials:blocks/copper_end_ore' was unified by: materials
+[20:51:12.638] [INFO]: Loot table 'ftbmaterials:blocks/emerald_nether_ore' was unified by: materials
+[20:51:12.638] [INFO]: Loot table 'ftbmaterials:blocks/uranium_stone_ore' was unified by: materials
+[20:51:12.638] [INFO]: Loot table 'alltheores:blocks/other_aluminum_ore' was unified by: materials
+[20:51:12.638] [INFO]: Loot table 'alltheores:blocks/other_nickel_ore' was unified by: materials
+[20:51:12.638] [INFO]: Loot table 'immersiveengineering:blocks/raw_block_silver' was unified by: materials
+[20:51:12.638] [INFO]: Loot table 'ftbmaterials:blocks/platinum_deepslate_ore' was unified by: materials
+[20:51:12.639] [INFO]: Loot table 'ftbmaterials:blocks/tin_block' was unified by: materials
+[20:51:12.640] [INFO]: Loot table 'mekanism:blocks/deepslate_fluorite_ore' was unified by: materials
+[20:51:12.640] [INFO]: Loot table 'ftbmaterials:blocks/zinc_nether_ore' was unified by: materials
+[20:51:12.640] [INFO]: Loot table 'ftbmaterials:blocks/silver_stone_ore' was unified by: materials
+[20:51:12.640] [INFO]: Loot table 'ftbmaterials:blocks/sulfur_stone_ore' was unified by: materials
+[20:51:12.641] [INFO]: Loot table 'create:blocks/zinc_block' was unified by: materials
+[20:51:12.641] [INFO]: Loot table 'mekanism:blocks/tin_ore' was unified by: materials
+[20:51:12.641] [INFO]: Loot table 'ftbmaterials:blocks/ruby_end_ore' was unified by: materials
+[20:51:12.642] [INFO]: Loot table 'ftbmaterials:blocks/lumium_block' was unified by: materials
+[20:51:12.642] [INFO]: Loot table 'ftbmaterials:blocks/osmium_block' was unified by: materials
+[20:51:12.643] [INFO]: Loot table 'occultism:blocks/silver_block' was unified by: materials
+[20:51:12.643] [INFO]: Loot table 'ftbmaterials:blocks/silver_raw_block' was unified by: materials
+[20:51:12.643] [INFO]: Loot table 'ftbmaterials:blocks/iridium_deepslate_ore' was unified by: materials
+[20:51:12.644] [INFO]: Loot table 'immersiveengineering:blocks/ore_lead' was unified by: materials
+[20:51:12.644] [INFO]: Loot table 'mekanism:blocks/block_tin' was unified by: materials
+[20:51:12.644] [INFO]: Loot table 'mekanism:blocks/osmium_ore' was unified by: materials
+[20:51:12.645] [INFO]: Loot table 'ftbmaterials:blocks/brass_block' was unified by: materials
+[20:51:12.645] [INFO]: Loot table 'ftbmaterials:blocks/lead_end_ore' was unified by: materials
+[20:51:12.645] [INFO]: Loot table 'ftbmaterials:blocks/lead_nether_ore' was unified by: materials
+[20:51:12.645] [INFO]: Loot table 'alltheores:blocks/other_sapphire_ore' was unified by: materials
+[20:51:12.645] [INFO]: Loot table 'create:blocks/raw_zinc_block' was unified by: materials
+[20:51:12.645] [INFO]: Loot table 'mekanism:blocks/deepslate_osmium_ore' was unified by: materials
+[20:51:12.645] [INFO]: Loot table 'mekanism:blocks/block_steel' was unified by: materials
+[20:51:12.646] [INFO]: Loot table 'ftbmaterials:blocks/aluminum_raw_block' was unified by: materials
+[20:51:12.646] [INFO]: Loot table 'ftbmaterials:blocks/aluminum_deepslate_ore' was unified by: materials
+[20:51:12.646] [INFO]: Loot table 'immersiveengineering:blocks/storage_aluminum' was unified by: materials
+[20:51:12.646] [INFO]: Loot table 'ftbmaterials:blocks/fluorite_end_ore' was unified by: materials
+[20:51:12.646] [INFO]: Loot table 'ftbmaterials:blocks/emerald_end_ore' was unified by: materials
+[20:51:12.647] [INFO]: Loot table 'create:blocks/zinc_ore' was unified by: materials
+[20:51:12.647] [INFO]: Loot table 'ftbmaterials:blocks/lead_stone_ore' was unified by: materials
+[20:51:12.647] [INFO]: Loot table 'mekanism:blocks/block_bronze' was unified by: materials
+[20:51:12.648] [INFO]: Loot table 'occultism:blocks/raw_silver_block' was unified by: materials
+[20:51:12.648] [INFO]: Loot table 'ftbmaterials:blocks/lead_deepslate_ore' was unified by: materials
+[20:51:12.648] [INFO]: Loot table 'ftbmaterials:blocks/ruby_stone_ore' was unified by: materials
+[20:51:12.648] [INFO]: Loot table 'ftbmaterials:blocks/osmium_end_ore' was unified by: materials
+[20:51:12.649] [INFO]: Loot table 'ftbmaterials:blocks/uranium_raw_block' was unified by: materials
+[20:51:12.649] [INFO]: Loot table 'immersiveengineering:blocks/storage_electrum' was unified by: materials
+[20:51:12.649] [INFO]: Loot table 'ftbmaterials:blocks/tin_stone_ore' was unified by: materials
+[20:51:12.649] [INFO]: Loot table 'ftbmaterials:blocks/lapis_lazuli_nether_ore' was unified by: materials
+[20:51:12.649] [INFO]: Loot table 'mekanism:blocks/block_raw_osmium' was unified by: materials
+[20:51:12.649] [INFO]: Loot table 'ftbmaterials:blocks/cinnabar_block' was unified by: materials
+[20:51:12.649] [INFO]: Loot table 'ftbmaterials:blocks/diamond_nether_ore' was unified by: materials
+[20:51:12.649] [INFO]: Loot table 'immersiveengineering:chests/engineers_house' was unified by: materials
+[20:51:12.650] [INFO]: Loot table 'immersiveengineering:blocks/storage_lead' was unified by: materials
+[20:51:12.650] [INFO]: Loot table 'ftbmaterials:blocks/fluorite_nether_ore' was unified by: materials
+[20:51:12.651] [INFO]: Loot table 'mekanism:blocks/deepslate_uranium_ore' was unified by: materials
+[20:51:12.651] [INFO]: Loot table 'ftbmaterials:blocks/uranium_block' was unified by: materials
+[20:51:12.651] [INFO]: Loot table 'ftbmaterials:blocks/iridium_nether_ore' was unified by: materials
+[20:51:12.651] [INFO]: Loot table 'ftbmaterials:blocks/osmium_raw_block' was unified by: materials
+[20:51:12.651] [INFO]: Loot table 'ftbmaterials:blocks/gold_end_ore' was unified by: materials
+[20:51:12.652] [INFO]: Loot table 'alltheores:blocks/other_ruby_ore' was unified by: materials
+[20:51:12.652] [INFO]: Loot table 'alltheores:blocks/other_osmium_ore' was unified by: materials
+[20:51:12.652] [INFO]: Loot table 'ftbmaterials:blocks/sulfur_end_ore' was unified by: materials
+[20:51:12.652] [INFO]: Loot table 'alltheores:blocks/other_uranium_ore' was unified by: materials
+[20:51:12.652] [INFO]: Loot table 'ftbmaterials:blocks/sulfur_nether_ore' was unified by: materials
+[20:51:12.652] [INFO]: Loot table 'ftbmaterials:blocks/iridium_block' was unified by: materials
+[20:51:12.653] [INFO]: Loot table 'immersiveengineering:blocks/raw_block_aluminum' was unified by: materials
+[20:51:12.653] [INFO]: Loot table 'ftbmaterials:blocks/silver_end_ore' was unified by: materials
+[20:51:12.653] [INFO]: Loot table 'alltheores:blocks/other_zinc_ore' was unified by: materials
+[20:51:12.653] [INFO]: Loot table 'ftbmaterials:blocks/uranium_end_ore' was unified by: materials
+[20:51:12.653] [INFO]: Loot table 'ftbmaterials:blocks/uranium_nether_ore' was unified by: materials
+[20:51:12.653] [INFO]: Loot table 'immersiveengineering:blocks/storage_steel' was unified by: materials
+[20:51:12.654] [INFO]: Loot table 'mekanism:blocks/lead_ore' was unified by: materials
+[20:51:12.654] [INFO]: Loot table 'ftbmaterials:blocks/gold_nether_ore' was unified by: materials
+[20:51:12.654] [INFO]: Loot table 'ftbmaterials:blocks/lead_raw_block' was unified by: materials
+[20:51:12.654] [INFO]: Loot table 'mekanism:blocks/deepslate_lead_ore' was unified by: materials
+[20:51:12.654] [INFO]: Loot table 'ftbmaterials:blocks/aluminum_nether_ore' was unified by: materials
+[20:51:12.654] [INFO]: Loot table 'immersiveengineering:blocks/deepslate_ore_uranium' was unified by: materials
+[20:51:12.655] [INFO]: Loot table 'ftbmaterials:blocks/cinnabar_deepslate_ore' was unified by: materials
+[20:51:12.655] [INFO]: Loot table 'ftbmaterials:blocks/platinum_block' was unified by: materials
+[20:51:12.655] [INFO]: Loot table 'ftbmaterials:blocks/tin_nether_ore' was unified by: materials
+[20:51:12.655] [INFO]: Loot table 'ftbmaterials:blocks/nickel_deepslate_ore' was unified by: materials
+[20:51:12.655] [INFO]: Loot table 'ftbmaterials:blocks/tin_raw_block' was unified by: materials
+[20:51:12.655] [INFO]: Loot table 'ftbmaterials:blocks/bronze_block' was unified by: materials
+[20:51:12.655] [INFO]: Loot table 'alltheores:blocks/other_platinum_ore' was unified by: materials
+[20:51:12.655] [INFO]: Loot table 'ftbmaterials:blocks/steel_block' was unified by: materials
+[20:51:12.656] [INFO]: Loot table 'mekanism:blocks/block_fluorite' was unified by: materials
+[20:51:12.656] [INFO]: Loot table 'ftbmaterials:blocks/sapphire_end_ore' was unified by: materials
+[20:51:12.656] [INFO]: Loot table 'ftbmaterials:blocks/platinum_nether_ore' was unified by: materials
+[20:51:12.656] [INFO]: Loot table 'mekanism:blocks/uranium_ore' was unified by: materials
+[20:51:12.656] [INFO]: Loot table 'ftbmaterials:blocks/silver_block' was unified by: materials
+[20:51:12.657] [INFO]: Loot table 'ftbmaterials:blocks/aluminum_stone_ore' was unified by: materials
+[20:51:12.657] [INFO]: Loot table 'immersiveengineering:blocks/ore_uranium' was unified by: materials
+[20:51:12.657] [INFO]: Loot table 'mekanism:blocks/block_lead' was unified by: materials

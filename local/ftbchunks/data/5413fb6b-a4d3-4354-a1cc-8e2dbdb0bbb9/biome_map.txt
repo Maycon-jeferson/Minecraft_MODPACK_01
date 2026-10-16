@@ -1,0 +1,4 @@
+#556 minecraft:beach
+#3D6 minecraft:cold_ocean
+#5FF minecraft:river
+#169 minecraft:taiga

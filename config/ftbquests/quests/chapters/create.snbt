@@ -1,0 +1,84 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: "5925D1FDFB4429B8"
+	id: "79944A709D8904E0"
+	images: [ ]
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "30704F8C47D6C88E"
+			tasks: [{
+				consume_items: false
+				count: 8L
+				id: "1E4FCF69BEE49912"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["30704F8C47D6C88E"]
+			id: "57FC9B5B75F47EE8"
+			tasks: [{
+				consume_items: false
+				count: 16L
+				id: "1FF06BF974BD3464"
+				item: { count: 1, id: "create:shaft" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["57FC9B5B75F47EE8"]
+			id: "01562B9CB8635871"
+			tasks: [{
+				consume_items: false
+				id: "5721583D4660E38A"
+				item: { count: 1, id: "create:water_wheel" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			id: "2B6370CA82A9E0F8"
+			tasks: [{
+				consume_items: false
+				id: "38D5C4C1D08A3CB3"
+				item: { count: 1, id: "create:mechanical_press" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			id: "63A8B23F54E774B8"
+			tasks: [{
+				consume_items: false
+				id: "15A5D76F0B3E0DDA"
+				item: { count: 1, id: "create:mechanical_mixer" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["63A8B23F54E774B8"]
+			id: "19C6CE6BD9039CDC"
+			tasks: [{
+				consume_items: false
+				id: "1FFB643BFD676436"
+				item: { count: 1, id: "create:crushing_wheel" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -12.0d
+		}
+	]
+}

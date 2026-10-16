@@ -1,0 +1,83 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanism"
+	group: "5925D1FDFB4429B8"
+	id: "3C171C1A16886005"
+	images: [ ]
+	order_index: 1
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "63E5A0DA4B251576"
+			tasks: [{
+				consume_items: false
+				count: 8L
+				id: "4ED55C68BFB24E64"
+				item: { count: 1, id: "alltheores:osmium_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "66CF6A5E9104762B"
+			tasks: [{
+				consume_items: false
+				id: "0A6E21248EFD001C"
+				item: { count: 1, id: "mekanism:metallurgic_infuser" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["66CF6A5E9104762B"]
+			id: "13B91E3021546DF6"
+			tasks: [{
+				consume_items: false
+				id: "4B59C3DB60BA6CEB"
+				item: { count: 1, id: "mekanism:enrichment_chamber" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["13B91E3021546DF6"]
+			id: "0C59812C4A6C1558"
+			tasks: [{
+				consume_items: false
+				id: "5BCC03C97DDB6D1B"
+				item: { count: 1, id: "mekanism:crusher" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			id: "1170A46DA8EE443A"
+			tasks: [{
+				consume_items: false
+				id: "502AB28C04059B3F"
+				item: { count: 1, id: "mekanism:purification_chamber" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1170A46DA8EE443A"]
+			id: "532D23301CBF66CC"
+			tasks: [{
+				consume_items: false
+				id: "0650B210DA914BB8"
+				item: { count: 1, id: "mekanism:digital_miner" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -12.0d
+		}
+	]
+}
