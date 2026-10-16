@@ -159,3 +159,22 @@
 20:07:42.263 INFO  [hitch] frame took 225 ms - SCC 0.2 ms (tick 0.1, sky 0.1, window 0.0, planner 0.0), GC 0 ms, heap 1942/12224 MB -> another mod or the game itself (SCC and GC were small)
 20:09:51.659 INFO  [world] leaving - writing log
 20:09:56.804 INFO  [world] leaving - writing log
+20:27:27.470 INFO  [kubejs] SCCEvents registered for KubeJS
+20:27:31.016 INFO  [start] ================================================
+20:27:31.017 INFO  [start] SCC 1.4.4  -  2026-10-16
+20:27:31.017 INFO  [start] Mods loaded: 92
+20:27:31.017 INFO  [start] JEI: true, EMI: false
+20:27:44.458 INFO  [chemicals] Mekanism chemicals connected - gases count as a network resource
+20:27:44.458 INFO  [chemicals] chemical storage blocks registered with Mekanism's handler
+20:27:44.473 INFO  [ae2] Network Antenna registers as an AE2 node
+20:28:09.657 INFO  [theme] Blockdesigns im Atlas: [light, classic, porcelain, ivory, champagne, pearl, ice, mint, rose, sandstone, royal_blue, burgundy, emerald, copper, terracotta, lapis, amethyst, petrol, jade, black_white, graphite, titanium, sky, peach, lavender, signal_red, dark] (F7 dark, preload true) - 25914 Sprites, 30627520 Pixel (116.8 MB), Umfaerben 811 ms, 2213 Dateien dekodiert, Atlas 4096x4096 (85 MB Grafikspeicher mit Mipmaps), Flaeche Designs 7055616 / Rest 8728671 px
+20:28:24.983 INFO  [balance] loaded 23 balance file(s) on the server
+20:28:38.771 INFO  [world] leaving - writing log
+20:29:05.018 INFO  [sky] drawing the five sky objects (visibility 0.4792654)
+20:29:36.041 INFO  [analysis] start, source JEI, fingerprint d1c3b0708a1ef86a|67a0e8405b45df8e-11566~367295ced4ebcc78
+20:29:36.222 INFO  [hitch] frame took 737 ms - SCC 709.4 ms (tick 709.1, sky 0.3, window 0.0, planner 0.0), GC 0 ms, heap 1722/12224 MB -> SCC
+20:29:41.562 WARN  [key] one variant was 3134 characters long and was shortened to a fingerprint. such items stay distinguishable but show no preview of their contents in the terminal.
+20:29:45.337 INFO  [hitch] frame took 147 ms - SCC 126.8 ms (tick 126.4, sky 0.3, window 0.0, planner 0.0), GC 0 ms, heap 2069/12224 MB -> SCC  (+5 more since the last line, worst 308 ms)
+20:29:51.490 INFO  [hitch] frame took 274 ms - SCC 27.1 ms (tick 27.0, sky 0.1, window 0.0, planner 0.0), GC 0 ms, heap 2763/12224 MB -> another mod or the game itself (SCC and GC were small)  (+2 more since the last line, worst 231 ms)
+20:29:54.317 INFO  [world] leaving - writing log
+20:30:03.540 INFO  [world] leaving - writing log

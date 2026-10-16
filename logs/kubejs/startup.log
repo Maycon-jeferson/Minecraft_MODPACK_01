@@ -1,11 +1,12 @@
-[20:03:51] [INIT] KubeJS 2101.7.2-build.377; MC 2101 NeoForge
-[20:03:51] [INIT] Loaded plugins:
-[20:03:51] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSPlugin
-[20:03:51] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSClientPlugin
-[20:03:51] [INIT] - de.scc.calculator.compat.kubejs.SccKubeJSPlugin
-[20:03:51] [INIT] - com.klikli_dev.occultism_kubejs.KubeJSOccultismPlugin
-[20:03:54] [INFO] startup_scripts:main.js#2: Hello, World! (Loaded startup example script)
-[20:03:54] [INFO] Loaded script startup_scripts:main.js in 0.109 s
-[20:03:54] [INFO] Loaded 1/1 KubeJS startup scripts in 2.544 s with 0 errors and 0 warnings
-[20:03:54] [INFO] Validated 0 files in kubejs/assets/ in 2ms
-[20:03:54] [INFO] Validated 0 files in kubejs/data/ in 1ms
+[20:27:28] [INIT] KubeJS 2101.7.2-build.377; MC 2101 NeoForge
+[20:27:28] [INIT] Loaded plugins:
+[20:27:28] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSPlugin
+[20:27:28] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSClientPlugin
+[20:27:28] [INIT] - dev.latvian.mods.kubejs.integration.architectury.ArchitecturyIntegration
+[20:27:28] [INIT] - de.scc.calculator.compat.kubejs.SccKubeJSPlugin
+[20:27:28] [INIT] - com.klikli_dev.occultism_kubejs.KubeJSOccultismPlugin
+[20:27:29] [INFO] startup_scripts:main.js#2: Hello, World! (Loaded startup example script)
+[20:27:29] [INFO] Loaded script startup_scripts:main.js in 0.081 s
+[20:27:29] [INFO] Loaded 1/1 KubeJS startup scripts in 1.904 s with 0 errors and 0 warnings
+[20:27:29] [INFO] Validated 2 files in kubejs/assets/ in 8ms
+[20:27:29] [INFO] Validated 0 files in kubejs/data/ in 0ms
