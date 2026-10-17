@@ -1,9 +1,9 @@
 {
 	chapter_group.5925D1FDFB4429B8.title: "Tutoriais de Tecnologia"
-	chapter.79944A709D8904E0.title: "Create — Automação cinética"
-	chapter.3C171C1A16886005.title: "Mekanism — Processamento e energia"
-	chapter.0C2677B01F6016BC.title: "Immersive Engineering — Energia e indústria"
-	chapter.6CE8F4ED39069210.title: "Applied Energistics 2 — Armazenamento e autocrafting"
+	chapter.79944A709D8904E0.title: "Create"
+	chapter.3C171C1A16886005.title: "Mekanism"
+	chapter.0C2677B01F6016BC.title: "Immersive Engineering"
+	chapter.6CE8F4ED39069210.title: "Applied"
 	quest.01562B9CB8635871.quest_desc: ["Posicione a roda d’água em um fluxo de água e conecte seu eixo à rede. A direção e a velocidade do fluxo afetam a rotação. Use uma caixa de engrenagens para encaminhar o movimento às máquinas."]
 	quest.01562B9CB8635871.title: "Gere energia com água"
 	quest.09DE2FB08448C553.quest_desc: ["A Metal Press exige uma estrutura com prensa, molde e transportador. Use o Engineer’s Manual para orientar a montagem. Coloque o molde compatível, alimente o material pela correia e conecte energia; a posição e orientação da saída importam."]
